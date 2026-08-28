@@ -1,0 +1,141 @@
+/home/ictfjcom/public_html/akaunting/index.php:1
+<?php
+^
+
+SyntaxError: Unexpected token <
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:51:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/ictfjcom/public_html/akaunting/index.php:1
+<?php
+^
+
+SyntaxError: Unexpected token <
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:51:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/ictfjcom/public_html/akaunting/index.php:1
+<?php
+^
+
+SyntaxError: Unexpected token <
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:51:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/ictfjcom/public_html/akaunting/index.php:1
+<?php
+^
+
+SyntaxError: Unexpected token <
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:51:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/ictfjcom/public_html/akaunting/index.php:1
+<?php
+^
+
+SyntaxError: Unexpected token <
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:51:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/ictfjcom/public_html/akaunting/index.php:1
+<?php
+^
+
+SyntaxError: Unexpected token <
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:51:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+/home/ictfjcom/public_html/akaunting/index.php:1
+<?php
+^
+
+SyntaxError: Unexpected token '<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:388:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:56:5)
+
+Node.js v19.9.0
+/home/ictfjcom/public_html/akaunting/index.php:1
+<?php
+^
+
+SyntaxError: Unexpected token '<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:388:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:56:5)
+
+Node.js v19.9.0
+/home/ictfjcom/public_html/akaunting/index.php:1
+<?php
+^
+
+SyntaxError: Unexpected token '<'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+    at require (node:internal/modules/helpers:119:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:388:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:56:5)
+
+Node.js v19.9.0
