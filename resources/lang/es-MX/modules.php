@@ -38,7 +38,7 @@ return [
     'no_apps'               => 'Todavía no hay aplicaciones en esta categoría.',
     'become_developer'      => '¿Es desarrollador? <a href=":url" target="_blank">Aquí</a> puede aprender cómo crear una aplicación y empezar a vender hoy!',
     'recommended_apps'      => 'Aplicaciones recomendadas',
-    'can_not_install'       => 'Las suscripciones mensuales solo están disponibles en el servicio en la nube. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Más información.</a>',
+    'can_not_install'       => 'Las suscripciones mensuales solo están disponibles en el servicio en la nube. <a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">Más información.</a>',
     'apps_managing'         => 'Revise las aplicaciones más populares y empiece a administrar sus finanzas hoy mismo.',
     'ready'                 => 'Listo',
     'popular_this_week'     => 'Popular esta semana',
@@ -46,7 +46,7 @@ return [
     'get_cloud'             => 'Obtener servicio en la nube',
     'get_premium_cloud'     => 'Obtener nube Premium',
     'switch_to_cloud'       => 'Cambiar a la nube',
-    'hosted_on_akaunting'   => 'Alojado en akaunting.com',
+    'hosted_on_nuvisfinance'   => 'Alojado en nuvisfinance.com',
     'information_on_preme'  => 'La opción :period está disponible solo en <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>la nube.</strong></a>',
     'information_monthly'   => 'Esta opción es válida solo para el <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Servicio en la nube</strong></a>',
     'only_works_cloud'      => 'Esta aplicación está disponible solo en la <strong>nube</strong>.',
@@ -100,8 +100,8 @@ return [
         'unzip'             => 'No se puede descomprimir :module',
         'file_copy'         => 'No se pueden copiar los archivos de :module',
         'finish'            => 'No se puede finalizar la instalación de :module',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

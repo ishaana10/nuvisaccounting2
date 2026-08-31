@@ -3,11 +3,11 @@
 return [
 
     'version'               => 'Verzija',
-    'powered'               => 'Omogućeno od Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'powered'               => 'Omogućeno od NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Besplatan web finansijski softver',
     'powered_by'            => 'Autor',
-    'tag_line'              => 'Šaljite fakture, pratite troškove i automatizujte računovodstvo uz Akaunting. :get_started_url',
+    'tag_line'              => 'Šaljite fakture, pratite troškove i automatizujte računovodstvo uz NuvisFinance. :get_started_url',
     'get_started'           => 'Početak',
 
 ];

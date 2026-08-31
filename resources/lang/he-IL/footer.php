@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'גירסה',
-    'powered'               => 'מופעל על ידי Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'powered'               => 'מופעל על ידי NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'תוכנת הנהלת חשבונות חינם',
 
 ];

@@ -13,7 +13,7 @@ return [
     'buy_now'               => 'Comprar ahora',
     'get_api_key'           => '<a href=":url" target="_blank">Haga clic aquí</a> para obtener su clave API.',
     'no_apps'               => 'No hay aplicaciones en esta categoría, aún.',
-    'become_developer'      => '¿Eres un desarrollador? <a href="https://akaunting.com/developers" target="_blank">Aquí</a> puedes aprender cómo crear una aplicación y empezar a vender hoy!',
+    'become_developer'      => '¿Eres un desarrollador? <a href="https://nuvisfinance.com/developers" target="_blank">Aquí</a> puedes aprender cómo crear una aplicación y empezar a vender hoy!',
     'recommended_apps'      => 'Aplicaciones recomendadas',
 
     'about'                 => 'Acerca de',
@@ -54,8 +54,8 @@ return [
         'unzip'             => 'No se puede descomprimir :module',
         'file_copy'         => 'No se pueden copiar los archivos de :module',
         'finish'            => 'No se puede finalizar la instalación de :module',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

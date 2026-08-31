@@ -12,9 +12,9 @@ return [
     'search'                => 'חיפוש',
     'install'               => 'התקנה',
     'buy_now'               => 'קנה עכשיו',
-    'token_link'            => '<a href="https://akaunting.com/tokens" target="_blank">לחץ כאן</a> כדי לקבל את ה-API אסימון.',
+    'token_link'            => '<a href="https://nuvisfinance.com/tokens" target="_blank">לחץ כאן</a> כדי לקבל את ה-API אסימון.',
     'no_apps'               => 'אין  עדיין יישומים בקטגוריה זאת.',
-    'developer'             => 'האם אתה מפתח? <a href="https://akaunting.com/blog/akaunting-app-store" target="_blank">כאן</a> תלמד כיצד ליצור app ולהתחיל למכור היום!',
+    'developer'             => 'האם אתה מפתח? <a href="https://nuvisfinance.com/blog/nuvisfinance-app-store" target="_blank">כאן</a> תלמד כיצד ליצור app ולהתחיל למכור היום!',
 
     'recommended_apps'      => 'Recommended Apps',
 
@@ -54,8 +54,8 @@ return [
         'file_copy' => ':module files can not copy!',
         'migrate' => ':module migrate broken!',
         'migrate core' => ':module already latest version so then yon can not update.',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

@@ -39,7 +39,7 @@ return [
     'no_apps'               => 'Belum ada aplikasi dalam kategori ini.',
     'become_developer'      => 'Apakah Anda seorang pengembang? <a href=":url" target="_blank">di sini</a> Anda dapat belajar cara membuat aplikasi dan mulai menjual hari ini!',
     'recommended_apps'      => 'Aplikasi yang direkomendasikan',
-    'can_not_install'       => 'Langganan bulanan hanya tersedia untuk layanan Cloud. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Pelajari lebih jauh.</a>',
+    'can_not_install'       => 'Langganan bulanan hanya tersedia untuk layanan Cloud. <a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">Pelajari lebih jauh.</a>',
     'apps_managing'         => 'Periksa aplikasi yang paling populer dan mulai kelola keuangan Anda secara profesional hari ini.',
     'ready'                 => 'Siap',
     'popular_this_week'     => 'Populer minggu ini',
@@ -47,7 +47,7 @@ return [
     'get_cloud'             => 'Dapatkan Layanan Cloud',
     'get_premium_cloud'     => 'Dapatkan Premium Cloud',
     'switch_to_cloud'       => 'Beralih ke Cloud',
-    'hosted_on_akaunting'   => 'Dihosting di akaunting.com',
+    'hosted_on_nuvisfinance'   => 'Dihosting di nuvisfinance.com',
     'information_on_preme'  => 'Opsi :period hanya berlaku untuk <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Layanan Cloud</strong></a>',
     'information_monthly'   => 'Opsi ini hanya berlaku untuk <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Layanan Cloud</strong></a>',
     'only_works_cloud'      => 'Aplikasi ini hanya tersedia di <strong>Cloud</strong>.',
@@ -100,8 +100,8 @@ return [
         'unzip'             => 'Tidak dapat unzip :module',
         'file_copy'         => 'Tidak dapat menyalin file :module',
         'finish'            => 'Tidak dapat menyelesaikan pemasangan :module',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Otrzymujesz tę wiadomość, ponieważ zostałeś zaproszony do dołączenia do Akaunting.',
+        'message_1'         => 'Otrzymujesz tę wiadomość, ponieważ zostałeś zaproszony do dołączenia do NuvisFinance.',
         'message_2'         => 'Jeśli nie chcesz dołączyć, nie są wymagane żadne dalsze działania.',
         'button'            => 'Rozpocznij',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Twórz faktury łatwo',
         'reports'           => 'Uzyskaj szczegółowe raporty',
         'expense'           => 'Śledź wszelkie wydatki',
-        'customize'         => 'Dostosuj swój Akaunting',
+        'customize'         => 'Dostosuj swój NuvisFinance',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Administrator',
-            'description'   => 'Ma pełny dostęp do Twojego Akaunting, w tym klientów, faktur, raportów, ustawień i aplikacji.',
+            'description'   => 'Ma pełny dostęp do Twojego NuvisFinance, w tym klientów, faktur, raportów, ustawień i aplikacji.',
         ],
         'manager' => [
             'name'          => 'Menedżer',
-            'description'   => 'Ma pełny dostęp do Twojego Akaunting, ale nie może zarządzać użytkownikami i aplikacjami.',
+            'description'   => 'Ma pełny dostęp do Twojego NuvisFinance, ale nie może zarządzać użytkownikami i aplikacjami.',
         ],
         'customer' => [
             'name'          => 'Klient',

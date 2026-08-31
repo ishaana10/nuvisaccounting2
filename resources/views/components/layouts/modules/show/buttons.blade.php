@@ -1,7 +1,7 @@
 @props(['module', 'installed', 'enable'])
 
 <div x-show="price_type == 'monthly'" class="w-full flex space-x-6 rtl:space-x-reverse">
-    <x-tooltip message="{{ trans('modules.hosted_on_akaunting') }}" placement="top" width="w-full">
+    <x-tooltip message="{{ trans('modules.hosted_on_nuvisfinance') }}" placement="top" width="w-full">
         <x-link
             href="{{ $module->monthly_url }}"
             target="_blank"
@@ -85,7 +85,7 @@
             @endcan
         @endif
     @else
-        <x-tooltip message="{{ trans('modules.hosted_on_akaunting') }}" placement="top" width="w-full">
+        <x-tooltip message="{{ trans('modules.hosted_on_nuvisfinance') }}" placement="top" width="w-full">
             <x-link
                 href="{{ $module->yearly_url }}"
                 target="_blank"
@@ -170,7 +170,7 @@
             @endcan
         @endif
     @else
-        <x-tooltip message="{{ trans('modules.hosted_on_akaunting') }}" placement="top" width="w-full">
+        <x-tooltip message="{{ trans('modules.hosted_on_nuvisfinance') }}" placement="top" width="w-full">
             <x-link
                 href="{{ $module->lifetime_url }}"
                 target="_blank"

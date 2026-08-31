@@ -289,7 +289,7 @@
                                 <div class="lg:w-1/4 lg:absolute">
                                     @stack('taxes_input_start')
 
-                                    <akaunting-select
+                                    <nuvisfinance-select
                                         class="mb-0 select-tax"
                                         :form-classes="[{'has-error': form.errors.has('items.' + index + '.taxes') }]"
                                         :icon="''"
@@ -360,7 +360,7 @@
                                                 </span>
                                             </span>
                                         </template>
-                                    </akaunting-select>
+                                    </nuvisfinance-select>
 
                                     @stack('taxes_input_end')
                                 </div>
@@ -395,7 +395,7 @@
                                 <div class="lg:w-1/4 lg:absolute">
                                     @stack('taxes_input_start')
 
-                                    <akaunting-select
+                                    <nuvisfinance-select
                                         class="mb-0 select-tax"
                                         style="{{ language()->direction() === 'rtl' ? 'margin-right: 1px; margin-left: -2px;' : 'margin-left: 1px; margin-right: -2px;' }}"
                                         :form-classes="[{'has-error': form.errors.has('items.' + index + '.taxes') }]"
@@ -467,7 +467,7 @@
                                                 </span>
                                             </span>
                                         </template>
-                                    </akaunting-select>
+                                    </nuvisfinance-select>
 
                                     @stack('taxes_input_end')
                                 </div>

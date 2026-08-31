@@ -22,7 +22,7 @@ return [
         'profit_loss'           => 'Ödenmemiş faturalar dahil gelir ve giderler',
         'expenses_by_category'  => 'Çeşitli kategorilerdeki en yüksek giderler',
         'account_balance'       => 'Banka hesaplarınızın mevcut bakiyesi',
-        'bank_feeds'            => 'Banka hesaplarınızı bağlayarak işlemlerinizi Akaunting\'e otomatik olarak aktarın <br />',
+        'bank_feeds'            => 'Banka hesaplarınızı bağlayarak işlemlerinizi NuvisFinance\'e otomatik olarak aktarın <br />',
     ],
 
     'periods' => [

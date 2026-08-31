@@ -1,5 +1,5 @@
 @stack($name . '_input_start')
-    <akaunting-money
+    <nuvisfinance-money
         @if (! empty($attributes['v-error']))
         :form-classes="[{'has-error': {{ $attributes['v-error'] }} }]"
         @else
@@ -78,5 +78,5 @@
         @if (isset($attributes['row-input']))
         :row-input="{{ $attributes['row-input'] }}"
         @endif
-    ></akaunting-money>
+    ></nuvisfinance-money>
 @stack($name . '_input_end')

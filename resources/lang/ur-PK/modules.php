@@ -13,9 +13,9 @@ return [
     'search'                => 'تلاش کریں',
     'install'               => 'انسٹال کریں',
     'buy_now'               => 'ابھی خریدیں',
-    'token_link'            => '<a href="https://akaunting.com/tokens" target="_blank">آپ API ٹوکن حاصل کرنے کے لئے</a> یہاں پر کلک کریں ۔',
+    'token_link'            => '<a href="https://nuvisfinance.com/tokens" target="_blank">آپ API ٹوکن حاصل کرنے کے لئے</a> یہاں پر کلک کریں ۔',
     'no_apps'               => 'ابھی تک اس زمرے میں کوئی اپلی کیشن موجود نہیں ہے.',
-    'developer'             => 'آپ کے ایک ڈویلپر ہیں؟ <a href="https://akaunting.com/blog/akaunting-app-store" target="_blank">آپ ایک ایپ اور آج فروخت شروع بنانے کا طریقہ سیکھ سکتے ہیں یہاں</a>!',
+    'developer'             => 'آپ کے ایک ڈویلپر ہیں؟ <a href="https://nuvisfinance.com/blog/nuvisfinance-app-store" target="_blank">آپ ایک ایپ اور آج فروخت شروع بنانے کا طریقہ سیکھ سکتے ہیں یہاں</a>!',
 
     'recommended_apps'      => 'سفارش کردہ ایپ',
 
@@ -58,8 +58,8 @@ return [
         'file_copy' => ': ماڈیول مسلیں نقل نہیں کر سکتے ہیں!',
         'migrate' => ': ماڈیول شکستہ منتقل کریں!',
         'migrate core' => ': ماڈیول پہلے سے ہی تازہ ترین ورژن ہے تو پھر اپ ڈیٹ نہیں کر سکتا۔',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

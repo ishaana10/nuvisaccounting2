@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'Możesz zaktualizować tę transakcję. Powinieneś przejść do dokumentu i edytować go tam.',
-        'create_document_transaction_error' => 'Ten punkt końcowy nie może zostać dodany do dokumentu. Użyj {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions',
-        'update_document_transaction_error' => 'Ten punkt końcowy nie może zostać zaktualizowany dla dokumentu. Użyj {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
-        'delete_document_transaction_error' => 'Ten punkt końcowy nie może zostać usunięty z dokumentu. Użyj {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
+        'create_document_transaction_error' => 'Ten punkt końcowy nie może zostać dodany do dokumentu. Użyj {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => 'Ten punkt końcowy nie może zostać zaktualizowany dla dokumentu. Użyj {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => 'Ten punkt końcowy nie może zostać usunięty z dokumentu. Użyj {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ]
 
 ];

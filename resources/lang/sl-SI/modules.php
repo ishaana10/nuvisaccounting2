@@ -40,7 +40,7 @@ return [
     'no_apps'               => 'Preverite najbolj profesionalne aplikacije za svoje podjetje in jih pridobite po najboljši ceni.',
     'become_developer'      => 'Ste razvijalec? <a href=":url" target="_blank">Tukaj</a> se lahko naučite kako narediti aplikacijo in jo začnete prodajati danes!',
     'recommended_apps'      => 'Priporočene aplikacije',
-    'can_not_install'       => 'Mesečne naročnine so na voljo samo v storitvi v oblaku. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Več o tem.</a>',
+    'can_not_install'       => 'Mesečne naročnine so na voljo samo v storitvi v oblaku. <a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">Več o tem.</a>',
     'apps_managing'         => 'Preverite najbolj priljubljene aplikacije in začnite profesionalno upravljati svoje finance še danes.',
     'ready'                 => 'Pripravljeno',
     'popular_this_week'     => 'Popularno ta teden',
@@ -48,7 +48,7 @@ return [
     'get_cloud'             => 'Pridobite Oblačno storitev',
     'get_premium_cloud'     => 'Pridobite Premium Oblak',
     'switch_to_cloud'       => 'Preklopi na oblak',
-    'hosted_on_akaunting'   => 'Gostovano na akaunting.com',
+    'hosted_on_nuvisfinance'   => 'Gostovano na nuvisfinance.com',
     'information_on_preme'  => ':perion možnost je na voljo samo na <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Oblaku.</strong></a>',
     'information_monthly'   => 'Ta možnost je na voljo samo za <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Oblačne Storitve</strong></a>',
     'only_works_cloud'      => 'Ta aplikacija je na voljo samo na <strong>Oblaku</strong>.',
@@ -103,8 +103,8 @@ return [
         'unzip'             => 'Napaka pri razširjanju :module',
         'file_copy'         => 'Napaka pri kopiranju :module datotek',
         'finish'            => 'Napaka pri končevanju namestitve :module',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

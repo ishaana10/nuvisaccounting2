@@ -11,9 +11,9 @@
 
 @stack('charts')
 
-<!-- <script type="text/javascript" src="{{ asset('public/akaunting-js/hotkeys.js') }}" defer></script> -->
-<script type="text/javascript" src="{{ asset('public/akaunting-js/generalAction.js') }}"></script>
-<script type="text/javascript" src="{{ asset('public/akaunting-js/popper.js') }}"></script>
+<!-- <script type="text/javascript" src="{{ asset('public/nuvisfinance-js/hotkeys.js') }}" defer></script> -->
+<script type="text/javascript" src="{{ asset('public/nuvisfinance-js/generalAction.js') }}"></script>
+<script type="text/javascript" src="{{ asset('public/nuvisfinance-js/popper.js') }}"></script>
 
 <script type="text/javascript">
     "use strict";

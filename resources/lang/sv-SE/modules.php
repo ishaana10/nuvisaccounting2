@@ -41,7 +41,7 @@ return [
     'no_apps'               => 'Det finns inga appar i den här kategorin ännu.',
     'become_developer'      => 'Är du utvecklare? <a href=":url" target="_blank">Här</a> kan du lära dig att skapa en app och börja sälja idag!',
     'recommended_apps'      => 'Rekommenderade appar',
-    'can_not_install'       => 'Månatliga prenumerationer är endast tillgängliga på molntjänsten. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Läs mer.</a>',
+    'can_not_install'       => 'Månatliga prenumerationer är endast tillgängliga på molntjänsten. <a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">Läs mer.</a>',
     'apps_managing'         => 'Kolla in de högst trendande apparna och börja hantera din ekonomi som ett proffs idag.',
     'ready'                 => 'Redo',
     'popular_this_week'     => 'Populärt denna vecka',
@@ -49,7 +49,7 @@ return [
     'get_cloud'             => 'Skaffa molntjänst',
     'get_premium_cloud'     => 'Skaffa Molntjänst Premium',
     'switch_to_cloud'       => 'Växla till molnet',
-    'hosted_on_akaunting'   => 'Driftad på akaunting.com',
+    'hosted_on_nuvisfinance'   => 'Driftad på nuvisfinance.com',
     'only_works_cloud'      => 'Appen är endast tillgänglig i <strong>Molnet</strong>.',
     'only_premium_plan'     => 'Appen är endast tillgänglig i <strong>Premium Molnet</strong>.',
     'not_found'             => 'Ingen app hittades',
@@ -102,8 +102,8 @@ return [
         'unzip'             => 'Kan inte packa upp :module',
         'file_copy'         => 'Kan inte kopiera :module filer',
         'finish'            => 'Kan inte slutföra :module installation',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

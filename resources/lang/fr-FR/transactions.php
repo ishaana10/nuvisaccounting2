@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'Vous pouvez modifier cette transaction. Vous devriez aller sur le document et le modifier là-bas.',
-        'create_document_transaction_error' => 'Ce point de terminaison ne peut pas être ajouté à un document. Utilisez {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions',
-        'update_document_transaction_error' => 'Ce point de terminaison ne peut pas être mis à jour pour un document. Utilisez {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
-        'delete_document_transaction_error' => 'Ce point de terminaison ne peut pas être supprimé d\'un document. Utilisez {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
+        'create_document_transaction_error' => 'Ce point de terminaison ne peut pas être ajouté à un document. Utilisez {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => 'Ce point de terminaison ne peut pas être mis à jour pour un document. Utilisez {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => 'Ce point de terminaison ne peut pas être supprimé d\'un document. Utilisez {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ],
 
 ];

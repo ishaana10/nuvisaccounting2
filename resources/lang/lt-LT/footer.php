@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Versija',
-    'powered'               => 'Sukurta Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'powered'               => 'Sukurta NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Laisva apskaitos programa',
 
 ];

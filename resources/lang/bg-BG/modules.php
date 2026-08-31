@@ -40,7 +40,7 @@ return [
     'no_apps'               => 'Вижте най-професионалните приложения за вашия бизнес и ги вземете на най-добра цена.',
     'become_developer'      => 'Вие сте разработчик? <a href=":url" target="_blank">Тук</a> може да научите как да създадете приложение и да стартирате продажби днес!',
     'recommended_apps'      => 'Препоръчани Добавки',
-    'can_not_install'       => 'Месечните абонаменти са налични само за Cloud service. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Научете повече.</a>',
+    'can_not_install'       => 'Месечните абонаменти са налични само за Cloud service. <a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">Научете повече.</a>',
     'apps_managing'         => 'Вижте най-актуалните приложения и започнете да управлявате финансите си професионално днес.',
     'ready'                 => 'Готово',
     'popular_this_week'     => 'Популярно тази седмица',
@@ -49,7 +49,7 @@ return [
     'get_premium_cloud'     => 'Вземи Premium Cloud
 ',
     'switch_to_cloud'       => 'Преминете към Cloud',
-    'hosted_on_akaunting'   => 'Хоствано на akaunting.com',
+    'hosted_on_nuvisfinance'   => 'Хоствано на nuvisfinance.com',
     'information_on_preme'  => 'опцията за :period е достъпна само на <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Cloud.</strong></a>',
     'information_monthly'   => 'Тази опция е валидна само за <strong>Cloud Service</strong>',
     'only_works_cloud'      => 'Това приложение е достъпно само в <strong>Cloud</strong>.',
@@ -104,8 +104,8 @@ return [
         'unzip'             => 'Не е възможно да се разархивира :module',
         'file_copy'         => 'Не е възможно да се копират файловете на :module',
         'finish'            => 'Не е възможно да се приключи инсталацията на :module',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

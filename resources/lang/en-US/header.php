@@ -22,8 +22,8 @@ return [
         ],
     ],
 
-    'docs_link'             => 'https://akaunting.com/docs',
-    'support_link'          => 'https://akaunting.com/support',
+    'docs_link'             => 'https://nuvisfinance.com/docs',
+    'support_link'          => 'https://nuvisfinance.com/support',
 
     'favorite' => [
         'added_favorite'    => 'Added to favorites',

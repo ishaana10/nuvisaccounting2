@@ -13,9 +13,9 @@ return [
     'search'                => 'ძიება',
     'install'               => 'დაყენება',
     'buy_now'               => 'ახლავე ყიდვა',
-    'token_link'            => '<a href="https://akaunting.com/tokens" target="_blank">აქ დააჭირეთ</a> რომ მიიღოთ თქვენი API ნიშანი.',
+    'token_link'            => '<a href="https://nuvisfinance.com/tokens" target="_blank">აქ დააჭირეთ</a> რომ მიიღოთ თქვენი API ნიშანი.',
     'no_apps'               => 'ამ კატეგორიაში აპლიკაციები არ არის.',
-    'developer'             => 'თქვენ ხართ შემქმნელი? <a href="https://akaunting.com/blog/akaunting-app-store" target="_blank">აქ</a> შეგიძლიათ გაიგოთ, თუ როგორ შექმნათ აპლიკაცია და დაიწყე გაყიდვა დღესვე!',
+    'developer'             => 'თქვენ ხართ შემქმნელი? <a href="https://nuvisfinance.com/blog/nuvisfinance-app-store" target="_blank">აქ</a> შეგიძლიათ გაიგოთ, თუ როგორ შექმნათ აპლიკაცია და დაიწყე გაყიდვა დღესვე!',
 
     'recommended_apps'      => 'რეკომენდირებული აპლიკაცია',
 
@@ -58,8 +58,8 @@ return [
         'file_copy' => ':მოდულის ფაილები არ დაკოპირდა!',
         'migrate' => ':მოდულის მიგრაცია გატეხილია!',
         'migrate core' => ':მოდული არის უახლესი ვერსიის. ასე, რომ თქვენ მას ვერ განაახლებთ.',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

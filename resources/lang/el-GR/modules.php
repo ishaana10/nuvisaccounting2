@@ -40,7 +40,7 @@ return [
     'no_apps'               => 'Δεν υπάρχουν ακόμη εφαρμογές σε αυτή την κατηγορία.',
     'become_developer'      => 'Είστε προγραμματιστής; <a href=":url" target="_blank">Εδώ</a> μπορείτε να μάθετε πώς να δημιουργήσετε μια εφαρμογή και να αρχίσετε να την πουλάτε σήμερα!',
     'recommended_apps'      => 'Προτεινόμενες εφαρμογές',
-    'can_not_install'       => 'Οι μηνιαίες συνδρομές είναι διαθέσιμες μόνο στην υπηρεσία Cloud. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Μάθετε περισσότερα.</a>',
+    'can_not_install'       => 'Οι μηνιαίες συνδρομές είναι διαθέσιμες μόνο στην υπηρεσία Cloud. <a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">Μάθετε περισσότερα.</a>',
     'apps_managing'         => 'Δείτε τις δημοφιλέστερες εφαρμογές και αρχίστε να διαχειρίζεστε επαγγελματικά τα οικονομικά σας σήμερα.',
     'ready'                 => 'Έτοιμο',
     'popular_this_week'     => 'Δημοφιλή αυτή την εβδομάδα',
@@ -48,7 +48,7 @@ return [
     'get_cloud'             => 'Απόκτηση υπηρεσίας Cloud',
     'get_premium_cloud'     => 'Απόκτηση Premium Cloud',
     'switch_to_cloud'       => 'Μετάβαση στο Cloud',
-    'hosted_on_akaunting'   => 'Φιλοξενείται στο akaunting.com',
+    'hosted_on_nuvisfinance'   => 'Φιλοξενείται στο nuvisfinance.com',
     'information_on_preme'  => 'Η επιλογή :period είναι διαθέσιμη μόνο στο <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Cloud.</strong></a>',
     'information_monthly'   => 'Αυτή η επιλογή ισχύει μόνο για την <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>υπηρεσία Cloud</strong></a>',
     'only_works_cloud'      => 'Αυτή η εφαρμογή είναι διαθέσιμη μόνο στο <strong>Cloud</strong>.',
@@ -103,8 +103,8 @@ return [
         'unzip'             => 'Δεν είναι δυνατή η αποσυμπίεση του :module',
         'file_copy'         => 'Δεν είναι δυνατή η αντιγραφή των αρχείων του :module',
         'finish'            => 'Δεν είναι δυνατή η ολοκλήρωση της εγκατάστασης του :module',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

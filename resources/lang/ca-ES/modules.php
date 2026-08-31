@@ -40,7 +40,7 @@ return [
     'no_apps'               => 'Consulta les aplicacions més professionals per al teu negoci i aconsegueix-les al millor preu.',
     'become_developer'      => 'Ets desenvolupador? <a href=":url" target="_blank">Aquí</a> podràs aprendre com crear una App i començar-la a vendre de seguida!',
     'recommended_apps'      => 'Apps recomanades',
-    'can_not_install'       => 'Les subscripcions mensuals estan disponibles només al Cloud Service. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Saber-ne més.</a>',
+    'can_not_install'       => 'Les subscripcions mensuals estan disponibles només al Cloud Service. <a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">Saber-ne més.</a>',
     'apps_managing'         => 'Comprova les aplicacions més actuals i comença a gestionar les finances de manera professional avui mateix.',
     'ready'                 => 'Llest',
     'popular_this_week'     => 'Popular aquesta setmana',
@@ -48,7 +48,7 @@ return [
     'get_cloud'             => 'Serveis al Núvol',
     'get_premium_cloud'     => 'Fes-te prèmium ara',
     'switch_to_cloud'       => 'Canvia al Núvol',
-    'hosted_on_akaunting'   => 'Allotjat a akaunting.com',
+    'hosted_on_nuvisfinance'   => 'Allotjat a nuvisfinance.com',
     'information_on_preme'  => 'L\'opció :period només està disponible a <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize">per al <strong>Cloud.</strong>',
     'information_monthly'   => 'Aquesta opció només està disponible per al <strong>Cloud Service</strong>',
     'only_works_cloud'      => 'Aquesta opció només està disponible per al <strong>Cloud Service</strong> (Servei al Núvol).',
@@ -103,8 +103,8 @@ return [
         'unzip'             => 'No s\'ha pogut descomprimir :module',
         'file_copy'         => 'No s\'ha pogut copiar els fitxers de :module',
         'finish'            => 'No s\'ha pogut acabar la instal·lació de :module',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

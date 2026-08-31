@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Versiya',
-    'powered'               => 'Akaunting tərəfindən',
-    'link'                  => 'https://akaunting.com/tr',
+    'powered'               => 'NuvisFinance tərəfindən',
+    'link'                  => 'https://nuvisfinance.com/tr',
     'software'              => 'Pulsuz Ön Muhasibat Proqramı',
 
 ];

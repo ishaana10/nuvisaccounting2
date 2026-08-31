@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Ha recibido este correo electrónico porque está invitado a unirse a Akaunting.',
+        'message_1'         => 'Ha recibido este correo electrónico porque está invitado a unirse a NuvisFinance.',
         'message_2'         => 'Si no desea unirse, no se requiere ninguna acción adicional.',
         'button'            => 'Comenzar',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Cree facturas fácilmente',
         'reports'           => 'Obtenga reportes detallados',
         'expense'           => 'Rastree cualquier gasto',
-        'customize'         => 'Personalice su Akaunting',
+        'customize'         => 'Personalice su NuvisFinance',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Administrador',
-            'description'   => 'Obtendrán acceso total a Akaunting, incluyendo clientes, facturas, reportes, configuraciones y aplicaciones.',
+            'description'   => 'Obtendrán acceso total a NuvisFinance, incluyendo clientes, facturas, reportes, configuraciones y aplicaciones.',
         ],
         'manager' => [
             'name'          => 'Gerente',
-            'description'   => 'Obtendrán acceso total a Akaunting, pero no pueden administrar usuarios ni aplicaciones.',
+            'description'   => 'Obtendrán acceso total a NuvisFinance, pero no pueden administrar usuarios ni aplicaciones.',
         ],
         'customer' => [
             'name'          => 'Cliente',

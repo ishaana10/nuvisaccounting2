@@ -1,8 +1,8 @@
 @stack($name . '_input_start')
     @if (! empty($remote))
-    <akaunting-select-remote
+    <nuvisfinance-select-remote
     @else
-    <akaunting-select
+    <nuvisfinance-select
     @endif
         @class([
             'relative',
@@ -214,9 +214,9 @@
     >
         {!! $slot ?? "" !!}
     @if (! empty($remote))
-    </akaunting-select-remote>
+    </nuvisfinance-select-remote>
     @else
-    </akaunting-select>
+    </nuvisfinance-select>
     @endif
 
 @stack($name . '_input_end')

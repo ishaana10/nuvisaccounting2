@@ -40,7 +40,7 @@ return [
     'no_apps'               => 'Tjek de mest professionelle apps til din virksomhed og få dem til den bedste pris.',
     'become_developer'      => 'Er du udvikler? <a href=":url" target="_blank">Her</a> kan du lære at udvikle en app og starte med at sælge i dag!',
     'recommended_apps'      => 'Anbefalede programmer',
-    'can_not_install'       => 'Månedlige abonnementer er kun tilgængelige på Cloud service. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Læs mere.</a>',
+    'can_not_install'       => 'Månedlige abonnementer er kun tilgængelige på Cloud service. <a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">Læs mere.</a>',
     'apps_managing'         => 'Se de mest populære apps og begynd at styre din økonomi professionelt i dag.',
     'ready'                 => 'Klar',
     'popular_this_week'     => 'Populær i denne uge',
@@ -48,7 +48,7 @@ return [
     'get_cloud'             => 'Få Sky-tjeneste',
     'get_premium_cloud'     => 'Få Premium Sky',
     'switch_to_cloud'       => 'Skift til Sky',
-    'hosted_on_akaunting'   => 'Hosted på akaunting.com',
+    'hosted_on_nuvisfinance'   => 'Hosted på nuvisfinance.com',
     'information_on_preme'  => ':period option er kun tilgængelig på <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Cloud.</strong></a>',
     'information_monthly'   => 'Denne indstilling er kun tilgængelig for <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Cloud Service</strong></a>',
     'only_works_cloud'      => 'Denne app er kun tilgængelig på <strong>Cloud</strong>.',
@@ -103,8 +103,8 @@ return [
         'unzip'             => 'Kan ikke udpakke zip filen :module',
         'file_copy'         => 'Kan ikke kopiere :module filerne',
         'finish'            => 'Kan ikke færdiggøre :module installationen',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

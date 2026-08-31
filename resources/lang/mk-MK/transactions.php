@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'Можете да ја ажурирате оваа трансакција. Одете во документот и уредете ја таму.',
-        'create_document_transaction_error' => 'Оваа крајна точка не може да се додаде во документ. Користете {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions',
-        'update_document_transaction_error' => 'Оваа крајна точка не може да се ажурира во документ. Користете {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
-        'delete_document_transaction_error' => 'Оваа крајна точка не може да се избрише од документ. Користете {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
+        'create_document_transaction_error' => 'Оваа крајна точка не може да се додаде во документ. Користете {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => 'Оваа крајна точка не може да се ажурира во документ. Користете {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => 'Оваа крајна точка не може да се избрише од документ. Користете {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ]
 
 ];

@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Sie erhalten diese E-Mail, weil Sie zur Mitarbeit bei Akaunting eingeladen wurden.',
+        'message_1'         => 'Sie erhalten diese E-Mail, weil Sie zur Mitarbeit bei NuvisFinance eingeladen wurden.',
         'message_2'         => 'Wenn Sie nicht beitreten möchten, ist keine weitere Aktion erforderlich.',
         'button'            => 'Loslegen',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Rechnungen einfach erstellen',
         'reports'           => 'Detaillierte Berichte abrufen',
         'expense'           => 'Alle Ausgaben verfolgen',
-        'customize'         => 'Passen Sie Ihr Akaunting an',
+        'customize'         => 'Passen Sie Ihr NuvisFinance an',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Admin',
-            'description'   => 'Er erhält vollen Zugriff auf Akaunting, einschließlich Kunden, Rechnungen, Berichte, Einstellungen und Apps.',
+            'description'   => 'Er erhält vollen Zugriff auf NuvisFinance, einschließlich Kunden, Rechnungen, Berichte, Einstellungen und Apps.',
         ],
         'manager' => [
             'name'          => 'Manager',
-            'description'   => 'Er erhält vollen Zugriff auf Akaunting, kann aber keine Benutzer und Apps verwalten.',
+            'description'   => 'Er erhält vollen Zugriff auf NuvisFinance, kann aber keine Benutzer und Apps verwalten.',
         ],
         'customer' => [
             'name'          => 'Kunde',

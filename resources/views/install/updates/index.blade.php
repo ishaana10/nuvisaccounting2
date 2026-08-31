@@ -15,7 +15,7 @@
         <div class="my-10">
             <div class="flex items-center">
                 <div class="relative px-4 text-sm text-center pb-2 text-purple font-medium border-purple transition-all after:absolute after:w-full after:h-0.5 after:left-0 after:right-0 after:bottom-0 after:bg-purple after:rounded-tl-md after:rounded-tr-md">
-                    <span>Akaunting</span>
+                    <span>NuvisFinance</span>
                 </div>
             </div>
 
@@ -126,7 +126,7 @@
             </x-table>
         </x-index.container>
 
-        <akaunting-modal v-if="changelog.show"
+        <nuvisfinance-modal v-if="changelog.show"
             modal-dialog-class="max-w-screen-xl change-log-modal"
             :show="changelog.show"
             :title="'{{ trans('updates.changelog') }}'"
@@ -135,7 +135,7 @@
             <template #card-footer>
                 <span></span>
             </template>
-        </akaunting-modal>
+        </nuvisfinance-modal>
     </x-slot>
 
     <x-script folder="install" file="update" />

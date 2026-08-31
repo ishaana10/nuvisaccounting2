@@ -39,7 +39,7 @@ return [
     'no_apps'               => '此类别下暂无应用。',
     'become_developer'      => '您是开发者吗？<a href=":url" target="_blank">在这里</a>您可以了解如何创建应用并立即开始销售！',
     'recommended_apps'      => '推荐应用',
-    'can_not_install'       => '按月订阅仅适用于云服务。<a href="https://akaunting.com/upgrade-to-yearly" target="_blank">了解更多。</a>',
+    'can_not_install'       => '按月订阅仅适用于云服务。<a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">了解更多。</a>',
     'apps_managing'         => '查看最热门的应用，立即开始专业地管理您的财务。',
     'ready'                 => '就绪',
     'popular_this_week'     => '本周热门',
@@ -47,7 +47,7 @@ return [
     'get_cloud'             => '获取云服务',
     'get_premium_cloud'     => '获取高级云',
     'switch_to_cloud'       => '切换到云',
-    'hosted_on_akaunting'   => '托管于 akaunting.com',
+    'hosted_on_nuvisfinance'   => '托管于 nuvisfinance.com',
     'information_on_preme'  => ':period 选项仅在 <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>云</strong></a> 上可用',
     'information_monthly'   => '此选项仅适用于 <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>云服务</strong></a>',
     'only_works_cloud'      => '此应用仅在 <strong>云</strong> 上可用。',
@@ -100,8 +100,8 @@ return [
         'unzip'             => '无法解压 :module',
         'file_copy'         => '无法复制 :module 文件',
         'finish'            => '无法完成 :module 安装',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

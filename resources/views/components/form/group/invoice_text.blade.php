@@ -16,7 +16,7 @@
         {'has-error': {{ isset($attributes['v-error']) ? $attributes['v-error'] : 'form.errors.get("' . $name . '")' }} }
     ]"
 >
-    <akaunting-select
+    <nuvisfinance-select
         @class([
             'relative',
             $formGroupClass,
@@ -166,7 +166,7 @@
         no-matching-data-text="{{ trans('general.no_matching_data') }}"
 
         :sort-options="false"
-    ></akaunting-select>
+    ></nuvisfinance-select>
 
     @foreach ($options as $option)
         @if ($option->id == 'custom')

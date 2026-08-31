@@ -93,7 +93,7 @@
             ]);
         @endphp
 
-        <akaunting-widget
+        <nuvisfinance-widget
             v-if="widget_modal"
             :title="'{{ trans('general.title.edit') }}'.replace(':type', widget.name)"
             :show="widget_modal"
@@ -108,7 +108,7 @@
             :text="{{ $text }}"
             :placeholder="{{ $placeholder }}"
             @cancel="onCancel">
-        </akaunting-widget>
+        </nuvisfinance-widget>
     @endsection
 
     <x-slot name="content">

@@ -63,8 +63,8 @@ Nem lehet letölteni: modul',
 Nem lehet létrehozni: modul zip fájlt',
         'finish'            => '
 Nem lehet véglegesíteni: modul telepítése',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

@@ -12,9 +12,9 @@ return [
     'search'                => 'Hľadať',
     'install'               => 'Inštalovať',
     'buy_now'               => 'Kúpiť teraz',
-    'token_link'            => '<a href="https://akaunting.com/tokens" target="_blank">Kliknite tu</a> a získajte Váš API token.',
+    'token_link'            => '<a href="https://nuvisfinance.com/tokens" target="_blank">Kliknite tu</a> a získajte Váš API token.',
     'no_apps'               => 'Neexistujú žiadne aplikácie v tejto kategórii zatiaľ.',
-    'developer'             => 'Ste vývojár? tu <a href="https://akaunting.com/blog/akaunting-app-store" target="_blank"></a> sa môžete naučiť, ako vytvoriť aplikáciu a začať predávať ešte dnes!',
+    'developer'             => 'Ste vývojár? tu <a href="https://nuvisfinance.com/blog/nuvisfinance-app-store" target="_blank"></a> sa môžete naučiť, ako vytvoriť aplikáciu a začať predávať ešte dnes!',
 
     'recommended_apps'      => 'Odporúčané aplikácie',
 
@@ -54,8 +54,8 @@ return [
         'file_copy' => 'Nepodarilo sa nakopírvať súbory modulu:module!',
         'migrate' => 'Migrácia modulu :module zlyhala!',
         'migrate core' => 'Modul :module je aktuálny, preto nie je možné vykonať jeho aktualizáciu.',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

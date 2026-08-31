@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <akaunting-modal
+    <nuvisfinance-modal
         :show="bulk_action.modal"
         :title="`{{ trans_choice($text, 2) }}`"
         :message="bulk_action.message"
@@ -86,7 +86,7 @@
                 </button>
             </div>
         </template>
-    </akaunting-modal>
+    </nuvisfinance-modal>
 @else
     <div class="text-black hidden" :class="[{'sm:flex': bulk_action.show}]">
         {{ trans('bulk_actions.no_action') }}

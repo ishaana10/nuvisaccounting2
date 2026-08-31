@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Verzia',
-    'powered'               => 'Powered By Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'powered'               => 'Powered By NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Zadarmo účtovný softvér',
 
 ];

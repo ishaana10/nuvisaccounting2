@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'Вы можете обновить эту транзакцию. Перейдите к документу и отредактируйте его там.',
-        'create_document_transaction_error' => 'Эта конечная точка не может быть добавлена к документу. Используйте {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions',
-        'update_document_transaction_error' => 'Эта конечная точка не может быть обновлена для документа. Используйте {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
-        'delete_document_transaction_error' => 'Эта конечная точка не может быть удалена для документа. Используйте {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
+        'create_document_transaction_error' => 'Эта конечная точка не может быть добавлена к документу. Используйте {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => 'Эта конечная точка не может быть обновлена для документа. Используйте {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => 'Эта конечная точка не может быть удалена для документа. Используйте {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ]
 
 ];

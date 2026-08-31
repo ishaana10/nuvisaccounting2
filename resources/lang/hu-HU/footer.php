@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Verzió',
-    'powered'               => 'Powered By Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'powered'               => 'Powered By NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Ingyenes könyvelő program',
 
 ];

@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'Puede actualizar esta transacción. Debería ir al documento y editarlo allí.',
-        'create_document_transaction_error' => 'Este endpoint no puede ser añadido a un documento. Use {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions',
-        'update_document_transaction_error' => 'Este endpoint no puede ser actualizado para un documento. Use {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
-        'delete_document_transaction_error' => 'Este endpoint no puede ser eliminado de un documento. Use {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
+        'create_document_transaction_error' => 'Este endpoint no puede ser añadido a un documento. Use {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => 'Este endpoint no puede ser actualizado para un documento. Use {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => 'Este endpoint no puede ser eliminado de un documento. Use {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ],
 
 ];

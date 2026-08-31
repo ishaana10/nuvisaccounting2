@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => '您可以更新此交易。您应该转到文档并在那里进行编辑。',
-        'create_document_transaction_error' => '此端点无法添加到文档。请使用 {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions',
-        'update_document_transaction_error' => '此端点无法更新到文档。请使用 {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
-        'delete_document_transaction_error' => '此端点无法从文档删除。请使用 {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
+        'create_document_transaction_error' => '此端点无法添加到文档。请使用 {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => '此端点无法更新到文档。请使用 {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => '此端点无法从文档删除。请使用 {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ]
 
 ];

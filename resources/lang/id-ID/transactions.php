@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'Anda dapat memperbarui transaksi ini. Anda harus pergi ke dokumen dan menyuntingnya di sana.',
-        'create_document_transaction_error' => 'Titik akhir ini tidak dapat ditambahkan ke dokumen. Gunakan {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions',
-        'update_document_transaction_error' => 'Titik akhir ini tidak dapat diperbarui ke dokumen. Gunakan {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
-        'delete_document_transaction_error' => 'Titik akhir ini tidak dapat dihapus dari dokumen. Gunakan {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
+        'create_document_transaction_error' => 'Titik akhir ini tidak dapat ditambahkan ke dokumen. Gunakan {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => 'Titik akhir ini tidak dapat diperbarui ke dokumen. Gunakan {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => 'Titik akhir ini tidak dapat dihapus dari dokumen. Gunakan {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ],
 
 ];

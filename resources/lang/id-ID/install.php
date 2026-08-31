@@ -45,7 +45,7 @@ return [
     ],
 
     'update' => [
-        'core'              => 'Versi baru Akaunting tersedia! Harap perbarui <a href=":url">pemasangan Anda.</a>',
+        'core'              => 'Versi baru NuvisFinance tersedia! Harap perbarui <a href=":url">pemasangan Anda.</a>',
         'module'            => 'Versi baru :module tersedia! Harap perbarui <a href=":url">pemasangan Anda.</a>',
     ],
 ];
