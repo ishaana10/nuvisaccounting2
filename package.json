@@ -86,7 +86,7 @@
         "webpack-cli": "^5.0.1"
     },
     "overrides": {
-        "webpack": "5.88.2",
+        "webpack": "^5.88.2",
         "lodash": "^4.17.21",
         "moment": ">=2.29.4",
         "jsonwebtoken": "^9.0.2",
