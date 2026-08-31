@@ -3,22 +3,24 @@
     @stack('content_content_start')
     <x-form id="form-install" :url="url()->current()">
 
-        <div class="card-body">
-            <div class="text-center text-muted mt-2 mb-4">
-                <small>
+        <div class="card-body p-0">
+            @if(!empty($attributes->get('title')))
+            <div class="mb-6">
+                <h3 class="text-xl font-bold text-gray-900 tracking-tight">
                     {!! $attributes->get('title') !!}
-                </small>
+                </h3>
             </div>
+            @endif
 
             @include('flash::message')
 
             {!! $slot !!}
         </div>
 
-        <div class="card-footer">
-            <div class="ltr:float-right rtl:float-left">
+        <div class="card-footer mt-8 pt-4 border-t border-gray-100 flex justify-end">
+            <div>
                 @if (Request::is('install/requirements'))
-                    <x-link href="{{ route('install.requirements') }}" class="btn btn-success" override="class">
+                    <x-link href="{{ route('install.requirements') }}" class="inline-flex items-center justify-center bg-green hover:bg-green-700 text-white font-medium px-6 py-2.5 text-sm rounded-xl transition duration-150 ease-in-out shadow-sm hover:shadow" override="class">
                         {{ trans('install.refresh') }}
                     </x-link>
                 @else
@@ -26,7 +28,7 @@
                         type="submit"
                         id="next-button"
                         ::disabled="loading"
-                        class="relative flex items-center justify-center bg-green hover:bg-green-700 text-white px-6 py-1.5 text-base rounded-lg disabled:bg-green-100 sm:col-span-6"
+                        class="relative inline-flex items-center justify-center bg-green hover:bg-green-700 text-white font-medium px-6 py-2.5 text-sm rounded-xl transition duration-150 ease-in-out shadow-sm hover:shadow disabled:opacity-50 disabled:cursor-not-allowed sm:col-span-6"
                         override="class"
                         data-loading-text="{{ trans('general.loading') }}"
                     >
