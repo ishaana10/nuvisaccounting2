@@ -33,6 +33,7 @@ class CompaniesTest extends FeatureTestCase
     public function getRequest()
     {
         return [
+            'country' => $this->faker->randomElement(array_keys(trans('countries'))),
             'financial_start' => '01-04',
             'address' => $this->faker->address,
             'tax_number' => $this->faker->randomNumber(9),
