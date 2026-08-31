@@ -22,7 +22,7 @@ return [
         'profit_loss'           => 'Ingresos y gastos, incluyendo facturas y facturas de compra no pagadas',
         'expenses_by_category'  => 'Gastos principales en varias categorías',
         'account_balance'       => 'Saldo actual de sus cuentas bancarias',
-        'bank_feeds'            => 'Importe sus transacciones a Akaunting automáticamente <br />conectando sus cuentas bancarias',
+        'bank_feeds'            => 'Importe sus transacciones a NuvisFinance automáticamente <br />conectando sus cuentas bancarias',
     ],
 
     'periods' => [

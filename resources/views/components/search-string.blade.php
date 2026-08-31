@@ -1,4 +1,4 @@
-<akaunting-search
+<nuvisfinance-search
     placeholder="{{ (!empty($filters)) ? trans('general.placeholder.search_and_filter') : trans('general.search_placeholder')}}"
     select-placeholder="{{ trans('general.placeholder.select_and_filter') }}"
     enter-placeholder="{{ trans('general.placeholder.enter_and_filter') }}"
@@ -26,4 +26,4 @@
         maxDate: {{ $attributes['max-date'] }}
         @endif
     }"
-></akaunting-search>
+></nuvisfinance-search>

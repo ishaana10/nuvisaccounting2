@@ -54,8 +54,8 @@ return [
         'unzip'             => 'Ne mogu raspakirati: modul',
         'file_copy'         => 'Ne mogu kopirati: datoteke modula',
         'finish'            => 'Nije moguće dovršiti: instalacija modula',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

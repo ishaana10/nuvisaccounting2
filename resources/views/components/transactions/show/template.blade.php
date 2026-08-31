@@ -63,7 +63,7 @@
             @include($transactionTemplate)
     @endswitch
 
-    <akaunting-connect-transactions
+    <nuvisfinance-connect-transactions
         :show="connect.show"
         :transaction="connect.transaction"
         :currency="connect.currency"
@@ -71,5 +71,5 @@
         :translations="connect.translations"
         modal-dialog-class="max-w-screen-lg"
         v-on:close-modal="connect.show = false"
-    ></akaunting-connect-transactions>
+    ></nuvisfinance-connect-transactions>
 </div>

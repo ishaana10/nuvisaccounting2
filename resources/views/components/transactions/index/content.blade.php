@@ -123,7 +123,7 @@
         </x-tabs>
     </x-index.container>
 
-    <akaunting-connect-transactions
+    <nuvisfinance-connect-transactions
         :show="connect.show"
         :transaction="connect.transaction"
         :currency="connect.currency"
@@ -131,7 +131,7 @@
         :translations="connect.translations"
         modal-dialog-class="max-w-screen-lg"
         v-on:close-modal="connect.show = false"
-    ></akaunting-connect-transactions>
+    ></nuvisfinance-connect-transactions>
 @else
     @if ($type == 'income-recurring')
         <x-empty-page

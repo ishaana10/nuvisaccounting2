@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Anda menerima email ini karena Anda diundang untuk bergabung ke Akaunting.',
+        'message_1'         => 'Anda menerima email ini karena Anda diundang untuk bergabung ke NuvisFinance.',
         'message_2'         => 'Jika Anda tidak ingin bergabung, tidak diperlukan tindakan lebih lanjut.',
         'button'            => 'Mulai',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Buat faktur instan',
         'reports'           => 'Dapatkan detail laporan',
         'expense'           => 'Lacak semua pengeluaran',
-        'customize'         => 'Sesuaikan Akaunting Anda',
+        'customize'         => 'Sesuaikan NuvisFinance Anda',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Admin',
-            'description'   => 'Mereka memiliki akses penuh ke Akaunting termasuk pelanggan, faktur, laporan, pengaturan, dan aplikasi.',
+            'description'   => 'Mereka memiliki akses penuh ke NuvisFinance termasuk pelanggan, faktur, laporan, pengaturan, dan aplikasi.',
         ],
         'manager' => [
             'name'          => 'Manajer',
-            'description'   => 'Mereka mendapat akses penuh ke Akaunting, tapi tidak bisa mengelola pengguna dan aplikasi.',
+            'description'   => 'Mereka mendapat akses penuh ke NuvisFinance, tapi tidak bisa mengelola pengguna dan aplikasi.',
         ],
         'customer' => [
             'name'          => 'Pelanggan',

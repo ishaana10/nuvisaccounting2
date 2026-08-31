@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'يمكنك تحديث هذه المعاملة من خلال الانتقال إلى المستند وتحريرها هناك.',
-        'create_document_transaction_error' => 'لا يمكن إضافة نقطة النهاية هذه إلى مستند. استخدم {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions',
-        'update_document_transaction_error' => 'لا يمكن تحديث نقطة النهاية هذه لمستند. استخدم {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
-        'delete_document_transaction_error' => 'لا يمكن حذف نقطة النهاية هذه من مستند. استخدم {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
+        'create_document_transaction_error' => 'لا يمكن إضافة نقطة النهاية هذه إلى مستند. استخدم {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => 'لا يمكن تحديث نقطة النهاية هذه لمستند. استخدم {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => 'لا يمكن حذف نقطة النهاية هذه من مستند. استخدم {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ]
 
 ];

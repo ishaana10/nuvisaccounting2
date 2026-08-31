@@ -40,7 +40,7 @@ return [
     'no_apps'               => 'V této kategorii zatím nejsou žádné aplikace.',
     'become_developer'      => 'Jste vývojář/ka? <a href=":url" target="_blank">Zde</a> se dozvíte, jak vytvořit a hned začít prodávat vaší aplikaci!',
     'recommended_apps'      => 'Doporučené aplikace',
-    'can_not_install'       => 'Měsíční předplatné jsou k dispozici pouze pro Cloudovou službu. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Další informace</a>',
+    'can_not_install'       => 'Měsíční předplatné jsou k dispozici pouze pro Cloudovou službu. <a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">Další informace</a>',
     'apps_managing'         => 'Podívejte se na nejpopulárnější aplikace a začněte dnes profesionálně spravovat své finance.',
     'ready'                 => 'Připraveno',
     'popular_this_week'     => 'Populární tento týden',
@@ -48,7 +48,7 @@ return [
     'get_cloud'             => 'Získat cloudouvou službu',
     'get_premium_cloud'     => 'Získejte prémiový cloud',
     'switch_to_cloud'       => 'Přepnout na cloud',
-    'hosted_on_akaunting'   => 'Hostováno na akaunting.com',
+    'hosted_on_nuvisfinance'   => 'Hostováno na nuvisfinance.com',
     'information_on_preme'  => ':period volba je k dispozici pouze na <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>cloudu.</strong></a>',
     'information_monthly'   => 'Tato možnost je platná pouze pro <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>cloudovou službu</strong></a>',
     'only_works_cloud'      => 'Tato aplikace je dostupná pouze na <strong>cloudu</strong>.',
@@ -103,8 +103,8 @@ return [
         'unzip'             => 'Nelze rozbalit: modul',
         'file_copy'         => 'Nelze kopírovat :module soubory',
         'finish'            => 'Není možné dokončit instalaci :module',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

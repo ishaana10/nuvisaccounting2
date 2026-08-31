@@ -54,8 +54,8 @@ return [
         'unzip'             => 'Not able to unzip :module',
         'file_copy'         => 'Not able to copy :module files',
         'finish'            => 'Not able to finalize :module installation',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

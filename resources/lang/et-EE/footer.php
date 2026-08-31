@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Versioon',
-    'powered'               => 'Kasutatud tarkvara: Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'powered'               => 'Kasutatud tarkvara: NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Tasuta raamatupidamistarkvara',
 
 ];

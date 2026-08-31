@@ -40,7 +40,7 @@ return [
     'no_apps'               => 'Er zijn nog geen apps in deze categorie beschikbaar.',
     'become_developer'      => 'Bent u een ontwikkelaar? <a href=":url" target="_blank">Hier</a> leert u hoe u vandaag nog een app kunt maken en deze kunt verkopen!',
     'recommended_apps'      => 'Aanbevolen Apps',
-    'can_not_install'       => 'Maandelijkse abonnementen zijn alleen beschikbaar op de Cloud service. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Meer informatie</a>',
+    'can_not_install'       => 'Maandelijkse abonnementen zijn alleen beschikbaar op de Cloud service. <a href="https://nuvisfinance.com/upgrade-to-yearly" target="_blank">Meer informatie</a>',
     'apps_managing'         => 'Bekijk de meest trending apps en begin vandaag nog met het professioneel beheren van je financiën.',
     'ready'                 => 'Klaar',
     'popular_this_week'     => 'Populair deze week',
@@ -48,7 +48,7 @@ return [
     'get_cloud'             => 'Cloud Service krijgen',
     'get_premium_cloud'     => 'Premium Cloud krijgen',
     'switch_to_cloud'       => 'Overschakelen naar de Cloud',
-    'hosted_on_akaunting'   => 'Gehost op akaunting.com',
+    'hosted_on_nuvisfinance'   => 'Gehost op nuvisfinance.com',
     'information_on_preme'  => ':period optie is alleen beschikbaar op <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Cloud opslag.</strong></a>',
     'information_monthly'   => 'Deze optie is alleen geldig voor <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Cloud Service</strong></a>',
     'only_works_cloud'      => 'Deze app is alleen beschikbaar op <strong>Cloud-service</strong>.',
@@ -103,8 +103,8 @@ return [
         'unzip'             => 'Uitpakken van het zip-bestand van :module is mislukt',
         'file_copy'         => 'Kopiëren van bestanden van :module is mislukt',
         'finish'            => 'Niet in staat om de installatie van :module af te ronden',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'warning' => [

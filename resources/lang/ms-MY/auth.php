@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Anda menerima e-mel ini kerana anda dijemput untuk menyertai Akaunting.',
+        'message_1'         => 'Anda menerima e-mel ini kerana anda dijemput untuk menyertai NuvisFinance.',
         'message_2'         => 'Jika anda tidak ingin menyertai, tiada tindakan lanjut diperlukan.',
         'button'            => 'Mula',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Cipta invois dengan mudah',
         'reports'           => 'Dapatkan detail laporan',
         'expense'           => 'Lacak semua perbelanjaan',
-        'customize'         => 'Sesuaikan Akaunting Anda',
+        'customize'         => 'Sesuaikan NuvisFinance Anda',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Pentadbir',
-            'description'   => 'Mereka mendapat akses penuh ke Akaunting anda termasuk pelanggan, invois, laporan, tetapan, dan aplikasi.',
+            'description'   => 'Mereka mendapat akses penuh ke NuvisFinance anda termasuk pelanggan, invois, laporan, tetapan, dan aplikasi.',
         ],
         'manager' => [
             'name'          => 'Pengurus',
-            'description'   => 'Mereka mendapat akses penuh ke Akaunting anda, tetapi tidak boleh mengurus pengguna dan aplikasi.',
+            'description'   => 'Mereka mendapat akses penuh ke NuvisFinance anda, tetapi tidak boleh mengurus pengguna dan aplikasi.',
         ],
         'customer' => [
             'name'          => 'Pelanggan',

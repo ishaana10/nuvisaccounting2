@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Версія',
-    'powered'               => 'Зроблено в Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'powered'               => 'Зроблено в NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Безкоштовна Бухгалтерська Програма',
 
 ];

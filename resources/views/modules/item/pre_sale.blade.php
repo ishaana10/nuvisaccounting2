@@ -138,11 +138,11 @@
                                         override="class"
                                         class="w-full px-3 py-1.5 mb-3 sm:mb-0 rounded-xl text-sm text-white font-medium leading-6 cursor-default bg-green hover:bg-green-700 disabled:bg-gray-50"
                                     >
-                                        <akaunting-countdown id="countdown-pre-sale"
+                                        <nuvisfinance-countdown id="countdown-pre-sale"
                                             :year="{{ (int) $module->pre_sale_date->year }}"
                                             :month="{{ (int) $module->pre_sale_date->month - 1 }}"
                                             :date="{{ (int) $module->pre_sale_date->day }}"
-                                        ></akaunting-countdown>
+                                        ></nuvisfinance-countdown>
                                     </x-button>
                                 </x-tooltip>
                             @else
@@ -153,11 +153,11 @@
                                         override="class"
                                         class="w-full flex items-center justify-center px-3 py-1.5 mb-3 sm:mb-0 rounded-xl text-sm font-medium leading-6 bg-green hover:bg-green-700 text-white disabled:bg-green-100"
                                     >
-                                    <akaunting-countdown id="countdown-pre-sale"
+                                    <nuvisfinance-countdown id="countdown-pre-sale"
                                         :year="{{ (int) $module->pre_sale_date->year }}"
                                         :month="{{ (int) $module->pre_sale_date->month - 1 }}"
                                         :date="{{ (int) $module->pre_sale_date->day }}"
-                                    ></akaunting-countdown>
+                                    ></nuvisfinance-countdown>
                                     </x-link>
                                 </x-tooltip>
                             @endif
@@ -168,11 +168,11 @@
         </div>
         
         @if ($module->purchase_faq)
-            <akaunting-modal :show="faq" modal-dialog-class="max-w-screen-md">
+            <nuvisfinance-modal :show="faq" modal-dialog-class="max-w-screen-md">
                 <template #modal-content>
                     {!! $module->purchase_faq !!}
                 </template>
-            </akaunting-modal>
+            </nuvisfinance-modal>
         @endif
     </x-slot>
 

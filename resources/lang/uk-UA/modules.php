@@ -13,7 +13,7 @@ return [
     'buy_now'               => 'Купити зараз',
     'get_api_key'           => '<a href=":url" target="_blank">Натисніть тут</a> , щоб отримати свій ключ API.',
     'no_apps'               => 'Немає поки що додатків у цій категорії.',
-    'become_developer'      => 'Ви розробник? <a href="https://akaunting.com/developers" target="_blank">Тут</a> Ви можете дізнатися, як створити додаток і почати продажі сьогодні!',
+    'become_developer'      => 'Ви розробник? <a href="https://nuvisfinance.com/developers" target="_blank">Тут</a> Ви можете дізнатися, як створити додаток і почати продажі сьогодні!',
     'recommended_apps'      => 'Рекомендовані додатки',
 
     'about'                 => 'Про',
@@ -54,8 +54,8 @@ return [
         'unzip'             => 'Не вдалося розпакувати :module',
         'file_copy'         => 'Неможливо скопіювати :module файли',
         'finish'            => 'Не вдалося завершити встановлення :module',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

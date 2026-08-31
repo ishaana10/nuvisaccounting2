@@ -23,13 +23,13 @@
                 <h1 class="text-lg lg:text-7xl font-semibold text-white" x-text="text"></h1>
             </div>
 
-            <x-link href="https://akaunting.com/plans-on-premise" target="_blank" class="text-white transition-all hover:underline" override="class">
+            <x-link href="https://nuvisfinance.com/plans-on-premise" target="_blank" class="text-white transition-all hover:underline" override="class">
                 {{ trans('modules.learn_more') }}
             </x-link>
         </div>
 
         <div class="hidden lg:block">
-            <img src="{{ asset('/public/img/akaunting-logo-gold.png') }}" class="h-40" alt="Akaunting" />
+            <img src="{{ asset('/public/img/nuvisfinance-logo-gold.png') }}" class="h-40" alt="NuvisFinance" />
         </div>
     </div>
 @endif

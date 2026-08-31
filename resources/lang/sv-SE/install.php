@@ -45,7 +45,7 @@ return [
     ],
 
     'update' => [
-        'core'              => 'Ny Akaunting-version tillgänglig! Vänligen uppdatera <a href=":url">din installation.</a>',
+        'core'              => 'Ny NuvisFinance-version tillgänglig! Vänligen uppdatera <a href=":url">din installation.</a>',
         'module'            => 'Ny version av :module tillgänglig! Vänligen uppdatera din installation.',
     ],
 ];

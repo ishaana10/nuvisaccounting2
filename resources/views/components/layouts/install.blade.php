@@ -13,12 +13,12 @@
             @if (! file_exists(public_path('js/install.min.js')))
                 <div class="relative w-full lg:max-w-7xl flex flex-col lg:flex-row items-center m-auto">
                     <div class="md:w-6/12 h-screen hidden lg:flex flex-col items-center justify-center">
-                        <img src="{{ asset('public/img/empty_pages/transactions.png') }}" alt="Akaunting Installation" />
+                        <img src="{{ asset('public/img/empty_pages/transactions.png') }}" alt="NuvisFinance Installation" />
                     </div>
 
                     <div class="w-full lg:w-46 h-31 flex flex-col justify-center gap-12 px-6 lg:px-24 py-24 mt-12 lg:mt-0">
                         <div class="flex flex-col gap-4">
-                            <img src="{{ asset('public/img/akaunting-logo-green.svg') }}" class="w-16 my-3" alt="Akaunting" />
+                            <img src="{{ asset('public/img/nuvisfinance-logo-green.svg') }}" class="w-16 my-3" alt="NuvisFinance" />
 
                             <div class="rounded-xl px-5 py-3 mb-5 bg-red-100 text-sm mb-0 text-red-600">
                                 {!! trans('install.requirements.npm') !!}
@@ -34,7 +34,7 @@
 
                     <div class="w-full lg:w-46 h-31 flex flex-col justify-center gap-12 px-6 lg:px-24 py-24 mt-12 lg:mt-0">
                         <div class="flex flex-col gap-4">
-                            <img src="{{ asset('public/img/akaunting-logo-green.svg') }}" class="w-16 my-3" alt="Akaunting" />
+                            <img src="{{ asset('public/img/nuvisfinance-logo-green.svg') }}" class="w-16 my-3" alt="NuvisFinance" />
 
                             <x-layouts.install.content :title="$title">
                                 {!! $content !!}

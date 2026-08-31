@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Akaunting\'e katılmaya davet edildiğiniz için bu e-postayı alıyorsunuz.',
+        'message_1'         => 'NuvisFinance\'e katılmaya davet edildiğiniz için bu e-postayı alıyorsunuz.',
         'message_2'         => 'Eğer katılmak istemiyorsanız, herhangi bir işlem yapmanıza gerek yoktur.',
         'button'            => 'Şimdi başlayın',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Kolayca fatura oluşturun',
         'reports'           => 'Detaylı raporlar alın',
         'expense'           => 'Her türlü harcamayı takip edin',
-        'customize'         => 'Akaunting\'inizi kişiselleştirin',
+        'customize'         => 'NuvisFinance\'inizi kişiselleştirin',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Yönetici',
-            'description'   => 'Müşteriler, faturalar, raporlar, ayarlar ve uygulamalar dahil olmak üzere Akaunting\'inize tam erişim elde ederler.',
+            'description'   => 'Müşteriler, faturalar, raporlar, ayarlar ve uygulamalar dahil olmak üzere NuvisFinance\'inize tam erişim elde ederler.',
         ],
         'manager' => [
             'name'          => 'Müdür',
-            'description'   => 'Akaunting\'inize tam erişime sahip olurlar, ancak kullanıcıları ve uygulamaları yönetemezler.',
+            'description'   => 'NuvisFinance\'inize tam erişime sahip olurlar, ancak kullanıcıları ve uygulamaları yönetemezler.',
         ],
         'customer' => [
             'name'          => 'Müşteri',

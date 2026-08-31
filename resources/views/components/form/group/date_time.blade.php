@@ -1,6 +1,6 @@
 @stack($name . '_input_start')
 
-    <akaunting-date
+    <nuvisfinance-date
         @class([
             'relative',
             $formGroupClass,
@@ -90,6 +90,6 @@
         @else
         :form-error="form.errors.get('{{ $name }}')"
         @endif
-    ></akaunting-date>
+    ></nuvisfinance-date>
 
 @stack($name . '_input_end')

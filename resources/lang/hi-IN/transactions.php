@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'आप इस लेन-देन को अपडेट कर सकते हैं। आपको दस्तावेज़ पर जाकर इसे वहीं संपादित करना चाहिए।',
-        'create_document_transaction_error' => 'इस समापनबिंदु को दस्तावेज़ में नहीं जोड़ा जा सकता। {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions का उपयोग करें',
-        'update_document_transaction_error' => 'इस समापनबिंदु को दस्तावेज़ में अपडेट नहीं किया जा सकता। {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id} का उपयोग करें',
-        'delete_document_transaction_error' => 'इस समापनबिंदु को दस्तावेज़ से हटाया नहीं जा सकता। {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id} का उपयोग करें',
+        'create_document_transaction_error' => 'इस समापनबिंदु को दस्तावेज़ में नहीं जोड़ा जा सकता। {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions का उपयोग करें',
+        'update_document_transaction_error' => 'इस समापनबिंदु को दस्तावेज़ में अपडेट नहीं किया जा सकता। {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id} का उपयोग करें',
+        'delete_document_transaction_error' => 'इस समापनबिंदु को दस्तावेज़ से हटाया नहीं जा सकता। {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id} का उपयोग करें',
     ],
 
 ];

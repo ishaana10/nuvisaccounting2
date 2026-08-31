@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Versioni',
-    'powered'               => 'Mundësuar nga Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'powered'               => 'Mundësuar nga NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Program Kontabiliteti Falas',
 
 ];

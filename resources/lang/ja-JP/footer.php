@@ -3,8 +3,8 @@
 return [
 
     'version'               => '製品版',
-    'powered'               => 'Akauntingによって供給',
-    'link'                  => 'https://akaunting.com',
+    'powered'               => 'NuvisFinanceによって供給',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => '無料会計ソフトウェア',
 
 ];

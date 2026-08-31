@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'Pots actualitzar aquesta transacció. Ves al document i fes-ho des d\'allà.',
-        'create_document_transaction_error' => 'No es pot afegir aquest enllaç al document. Fes servir {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions',
-        'update_document_transaction_error' => 'No es pot actualitzar aquest enllaç del document. Fes servir {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
-        'delete_document_transaction_error' => 'No es pot esborrar aquest enllaç del document. Fes servir {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
+        'create_document_transaction_error' => 'No es pot afegir aquest enllaç al document. Fes servir {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => 'No es pot actualitzar aquest enllaç del document. Fes servir {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => 'No es pot esborrar aquest enllaç del document. Fes servir {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ]
 
 ];

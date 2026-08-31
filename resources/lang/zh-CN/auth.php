@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => '您收到此邮件是因为您被邀请加入 Akaunting。',
+        'message_1'         => '您收到此邮件是因为您被邀请加入 NuvisFinance。',
         'message_2'         => '如果您不想加入，则无需进一步操作。',
         'button'            => '开始使用',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => '轻松创建发票',
         'reports'           => '获取详细报表',
         'expense'           => '跟踪任何支出',
-        'customize'         => '自定义您的 Akaunting',
+        'customize'         => '自定义您的 NuvisFinance',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => '管理员',
-            'description'   => '他们可以完全访问您的 Akaunting，包括客户、发票、报表、设置和应用。',
+            'description'   => '他们可以完全访问您的 NuvisFinance，包括客户、发票、报表、设置和应用。',
         ],
         'manager' => [
             'name'          => '经理',
-            'description'   => '他们可以完全访问您的 Akaunting，但无法管理用户和应用。',
+            'description'   => '他们可以完全访问您的 NuvisFinance，但无法管理用户和应用。',
         ],
         'customer' => [
             'name'          => '客户',

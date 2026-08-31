@@ -12,9 +12,9 @@ return [
     'search'                => 'Tìm kiếm',
     'install'               => 'Cài đặt',
     'buy_now'               => 'Mua ngay',
-    'token_link'            => '<a href="https://akaunting.com/tokens" target="_blank"> Click vào đây</a> để lấy API token của bạn.',
+    'token_link'            => '<a href="https://nuvisfinance.com/tokens" target="_blank"> Click vào đây</a> để lấy API token của bạn.',
     'no_apps'               => 'Chưa có ứng dụng nào trong mục này.',
-    'developer'             => 'Bạn có phải là nhà phát triển? <a href="https://akaunting.com/blog/akaunting-app-store" target="_blank">Tại đây</a> bạn có thể tìm hiểu cách làm thế nào để tạo ra một ứng dụng và bắt đầu bán hôm nay!',
+    'developer'             => 'Bạn có phải là nhà phát triển? <a href="https://nuvisfinance.com/blog/nuvisfinance-app-store" target="_blank">Tại đây</a> bạn có thể tìm hiểu cách làm thế nào để tạo ra một ứng dụng và bắt đầu bán hôm nay!',
 
     'recommended_apps'      => 'Recommended Apps',
 
@@ -54,8 +54,8 @@ return [
         'file_copy' => ':module files can not copy!',
         'migrate' => ':module migrate broken!',
         'migrate core' => ':module already latest version so then yon can not update.',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

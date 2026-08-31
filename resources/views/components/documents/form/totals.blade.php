@@ -226,14 +226,14 @@
                         <td class="border-t-0 pt-5 pb-0"></td>
 
                         <td colspan="2" class="ltr:text-right rtl:text-left border-t-0 ltr:border-r-0 rtl:border-l-0 align-middle pt-5 pb-0 ltr:pr-0 rtl:pl-0">
-                            <akaunting-currency-conversion
+                            <nuvisfinance-currency-conversion
                                 currency-conversion-text="{{ trans('currencies.conversion') }}"
                                 :price="(totals.total / form.currency_rate).toFixed(2)"
                                 :currency-code="form.currency_code"
                                 :currency-rate="form.currency_rate"
                                 :currency-symbol="currency_symbol"
                                 @change="form.currency_rate = $event"
-                            ></akaunting-currency-conversion>
+                            ></nuvisfinance-currency-conversion>
                         </td>
 
                         <td class="border-t-0 pt-5 pb-0" style="max-width: 50px"></td>

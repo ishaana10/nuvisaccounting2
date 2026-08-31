@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'Sie können diese Transaktion aktualisieren. Sie sollten zum Dokument gehen und es dort bearbeiten.',
-        'create_document_transaction_error' => 'Dieser Endpunkt kann nicht zu einem Dokument hinzugefügt werden. Verwenden Sie {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions',
-        'update_document_transaction_error' => 'Dieser Endpunkt kann nicht für ein Dokument aktualisiert werden. Verwenden Sie {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
-        'delete_document_transaction_error' => 'Dieser Endpunkt kann nicht für ein Dokument gelöscht werden. Verwenden Sie {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id}',
+        'create_document_transaction_error' => 'Dieser Endpunkt kann nicht zu einem Dokument hinzugefügt werden. Verwenden Sie {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => 'Dieser Endpunkt kann nicht für ein Dokument aktualisiert werden. Verwenden Sie {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => 'Dieser Endpunkt kann nicht für ein Dokument gelöscht werden. Verwenden Sie {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ]
 
 ];

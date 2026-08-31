@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'Bu işlemi güncelleyebilirsiniz. Belgeye gitmeli ve orada düzenlemelisiniz.',
-        'create_document_transaction_error' => 'Bu uç nokta bir belgeye eklenemez. {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions kullanın',
-        'update_document_transaction_error' => 'Bu uç nokta bir belgeye güncellenemez. {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id} kullanın',
-        'delete_document_transaction_error' => 'Bu uç nokta bir belgeden silinemez. {{akaunting_url}}/documents/{{akaunting_document_id}}/transactions/{akaunting_transaction_id} kullanın',
+        'create_document_transaction_error' => 'Bu uç nokta bir belgeye eklenemez. {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions kullanın',
+        'update_document_transaction_error' => 'Bu uç nokta bir belgeye güncellenemez. {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id} kullanın',
+        'delete_document_transaction_error' => 'Bu uç nokta bir belgeden silinemez. {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id} kullanın',
     ],
 
 ];

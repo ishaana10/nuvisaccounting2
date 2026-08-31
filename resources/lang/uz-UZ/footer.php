@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Rusum',
-    'powered'               => 'Akaunting tizimida ishlaydi',
-    'link'                  => 'https://akaunting.com',
+    'powered'               => 'NuvisFinance tizimida ishlaydi',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Bepul buxgalteriya dasturi',
 
 ];

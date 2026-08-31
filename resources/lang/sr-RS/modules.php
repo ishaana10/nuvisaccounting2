@@ -12,9 +12,9 @@ return [
     'search'                => 'Претраживање',
     'install'               => 'Инсталирај',
     'buy_now'               => 'Купи одмах',
-    'token_link'            => '<a href="https://akaunting.com/tokens" target="_blank">Кликните овде</a> да бисте добили свој API token.',
+    'token_link'            => '<a href="https://nuvisfinance.com/tokens" target="_blank">Кликните овде</a> да бисте добили свој API token.',
     'no_apps'               => 'У овој категорији још нема апликација.',
-    'developer'             => 'Јеси ли програмер? <a href="https://akaunting.com/blog/akaunting-app-store" target="_blank">Овде </a> можете научити како креирати апликацију и можеш да почнеш да је продајеш!',
+    'developer'             => 'Јеси ли програмер? <a href="https://nuvisfinance.com/blog/nuvisfinance-app-store" target="_blank">Овде </a> можете научити како креирати апликацију и можеш да почнеш да је продајеш!',
 
     'recommended_apps'      => 'Препоручене апликације',
 
@@ -57,8 +57,8 @@ return [
         'file_copy' => ':module не може да се копира!',
         'migrate' => 'Преношење (миграција) :module неуспела!',
         'migrate core' => ':module је у најновијој верзији зато не можете извршити ажурирати.',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

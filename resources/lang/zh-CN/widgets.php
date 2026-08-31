@@ -22,7 +22,7 @@ return [
         'profit_loss'           => '收入和支出（包括未支付的发票和账单）',
         'expenses_by_category'  => '各类别的主要支出',
         'account_balance'       => '您银行账户的当前余额',
-        'bank_feeds'            => '通过连接您的银行账户自动将您的交易导入 Akaunting <br />',
+        'bank_feeds'            => '通过连接您的银行账户自动将您的交易导入 NuvisFinance <br />',
     ],
 
     'periods' => [

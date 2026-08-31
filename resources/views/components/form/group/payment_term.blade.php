@@ -16,7 +16,7 @@
         {'has-error': {{ isset($attributes['v-error']) ? $attributes['v-error'] : 'form.errors.get("' . $name . '")' }} }
     ]"
 >
-    <akaunting-select
+    <nuvisfinance-select
         @class([
             'relative',
             'required' => $required,
@@ -173,7 +173,7 @@
         no-matching-data-text="{{ trans('general.no_matching_data') }}"
 
         :sort-options="false"
-    ></akaunting-select>
+    ></nuvisfinance-select>
 
     <div class="col-span-3 grid sm:grid-cols-12 mt-6" v-show="form.{{ $name }} == 'custom'">
         <x-form.group.text name="payment_terms" value="{{ !empty($value) ? $value : 0 }}" form-group-class="col-span-4" />

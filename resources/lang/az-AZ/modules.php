@@ -13,7 +13,7 @@ return [
     'buy_now'               => 'İndi satın al',
     'get_api_key'           => 'API Açar almaq üçün <a href=":url" target="_blank">buraya vurun</a>.',
     'no_apps'               => 'Bu kateqoriyada hələ heç bir tətbiq yoxdur.',
-    'become_developer'      => 'Bir geliştiricisiniz? <a href=":url" target="_blank">Buraya</a> Akaunting üçün tətbiqetmələr inkişaf etdirməyi öyrənib və dərhal pul qazanmağa başlayacağınızı bilərsiniz!',
+    'become_developer'      => 'Bir geliştiricisiniz? <a href=":url" target="_blank">Buraya</a> NuvisFinance üçün tətbiqetmələr inkişaf etdirməyi öyrənib və dərhal pul qazanmağa başlayacağınızı bilərsiniz!',
     'recommended_apps'      => 'Məsləhət Görülən tətbiqlər',
 
     'about'                 => 'Haqqında',
@@ -54,8 +54,8 @@ return [
         'unzip'             => ':module zipdən çıxarılması',
         'file_copy'         => ':module faylları kopyalana bilmədi',
         'finish'            => ':module qurulum tamamlana bilmədi',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

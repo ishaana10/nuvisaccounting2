@@ -12,9 +12,9 @@ return [
     'search'                => '검색',
     'install'               => '설치',
     'buy_now'               => '지금 구매',
-    'token_link'            => 'API 토큰을 얻기 위해서 <a href="https://akaunting.com/tokens" target="_blank">여기</a>를 클릭하세요.',
+    'token_link'            => 'API 토큰을 얻기 위해서 <a href="https://nuvisfinance.com/tokens" target="_blank">여기</a>를 클릭하세요.',
     'no_apps'               => '이 카테고리에는 아직 앱이 없습니다.',
-    'developer'             => '개발자 이신가요? <a href="https://akaunting.com/blog/akaunting-app-store" target="_blank">여기</a>를 클릭하여 앱을 어떻게 만들고 판매할 수 있는지 확인할 수 있습니다!',
+    'developer'             => '개발자 이신가요? <a href="https://nuvisfinance.com/blog/nuvisfinance-app-store" target="_blank">여기</a>를 클릭하여 앱을 어떻게 만들고 판매할 수 있는지 확인할 수 있습니다!',
 
     'recommended_apps'      => '추천 앱',
 
@@ -57,8 +57,8 @@ return [
         'file_copy' => ':module 파일들을 복사할 수 없습니다!',
         'migrate' => ':module 마이그레이션 실패!',
         'migrate core' => ':module은 이미 최신 버전이기 때문에, 업데이트할 수 없습니다.',
-        'disable_protected' => ':module is required by Akaunting, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by Akaunting, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [
