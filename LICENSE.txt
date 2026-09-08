@@ -1,7 +1,7 @@
 Copyright (c) Nuvis Technologies. All Rights Reserved.
 
 Proprietary License Notice:
-Licensed Work: NuvisFinance
+Licensed Work: Nuvis AccountX
 
 This software and associated documentation files are proprietary and confidential to Nuvis Technologies.
 Unauthorized copying, distribution, modification, public display, or performance of this software, via any medium, is strictly prohibited.
