@@ -1,1 +1,3 @@
-<div><span></span></div>
+<div>
+    <!-- browser notification -->
+</div>
