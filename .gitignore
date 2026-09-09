@@ -94,5 +94,6 @@ _ide_helper_models.php
 .phpunit.result.cache
 modules/*
 !modules/.gitkeep
+!modules/Vms/**
 .laravelstatsrc
 .DS_Store
