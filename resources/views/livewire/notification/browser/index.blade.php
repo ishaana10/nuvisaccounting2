@@ -1,2 +1,3 @@
 <div>
+    <!-- browser notification -->
 </div>
