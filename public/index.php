@@ -1,10 +1,9 @@
 <?php
 
 /**
- * @package     Akaunting
- * @copyright   2017-2023 Akaunting. All rights reserved.
+ * @package     NuvisAccountx
+ * @copyright   2017-2023 NuvisAccountx. All rights reserved.
  * @license     BSL; see LICENSE.txt
- * @link        https://akaunting.com
  */
 
 use Illuminate\Contracts\Http\Kernel;
