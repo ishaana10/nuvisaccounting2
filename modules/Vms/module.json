@@ -1,0 +1,14 @@
+{
+    "name": "Vms",
+    "alias": "vms",
+    "description": "Fiji FRCS VMS (TaxCore) Fiscalization & Compliance Module",
+    "version": "1.0.0",
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Vms\\Providers\\Main"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
