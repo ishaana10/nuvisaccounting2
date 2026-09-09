@@ -2,6 +2,7 @@
 
 // Define minimum supported PHP version
 define('NUVISACCOUNTX_PHP', '8.1.0');
+define('AKAUNTING_PHP', NUVISACCOUNTX_PHP);
 
 // Check PHP version
 if (version_compare(PHP_VERSION, NUVISACCOUNTX_PHP, '<')) {
