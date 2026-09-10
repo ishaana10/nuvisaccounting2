@@ -33,13 +33,17 @@ self.addEventListener('activate', event => {
 
 // Serve from Cache
 self.addEventListener("fetch", event => {
+    if (event.request.method !== 'GET') {
+        return;
+    }
+
     event.respondWith(
         caches.match(event.request)
             .then(response => {
                 return response || fetch(event.request);
             })
             .catch(() => {
-                return caches.match('offline');
+                return fetch(event.request);
             })
-    )
+    );
 });
