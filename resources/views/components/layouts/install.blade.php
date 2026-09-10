@@ -18,7 +18,7 @@
 
                     <div class="w-full lg:w-1/2 flex flex-col justify-center gap-6 p-6">
                         <div class="flex flex-col items-start gap-4">
-                            <img src="{{ asset('public/img/nuvisfinance-logo-green.svg') }}" class="h-10 my-1" alt="NuvisFinance" />
+                            <img src="{{ asset('public/img/nuvisAccountX-logo.png') }}" class="h-10 my-1" alt="NuvisFinance" />
                             <h2 class="text-2xl font-bold text-gray-900">Installation Setup</h2>
 
                             <div class="w-full rounded-xl p-4 bg-red-50 border border-red-200 text-sm text-red-600 shadow-sm">
@@ -36,7 +36,7 @@
                     <div class="w-full lg:w-1/2 flex flex-col justify-center px-8 lg:px-12 py-10 my-auto">
                         <div class="flex flex-col gap-6">
                             <div class="flex items-center justify-between border-b border-gray-100 pb-4">
-                                <img src="{{ asset('public/img/nuvisfinance-logo-green.svg') }}" class="h-9" alt="NuvisFinance" />
+                                <img src="{{ asset('public/img/nuvisAccountX-logo.png') }}" class="h-9" alt="NuvisFinance" />
                                 <span class="text-xs font-semibold px-3 py-1 rounded-full bg-green-50 text-green-700 border border-green-200 shadow-xs">Installer</span>
                             </div>
 
