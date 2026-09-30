@@ -69,16 +69,27 @@ trait Plans
 
     public function getPlanLimits(): bool|object
     {
-        $key = 'plans.limits';
+        $limit = new \stdClass();
 
-        return Cache::remember($key, Date::now()->addHour(), function () {
-            $url = 'plans/limits';
+        $user_limit = new \stdClass();
+        $user_limit->action_status = true;
+        $user_limit->view_status = true;
+        $user_limit->message = "Success";
 
-            if (! $data = static::getResponseData('GET', $url, ['timeout' => 10])) {
-                return false;
-            }
+        $company_limit = new \stdClass();
+        $company_limit->action_status = true;
+        $company_limit->view_status = true;
+        $company_limit->message = "Success";
 
-            return $data;
-        });
+        $invoice_limit = new \stdClass();
+        $invoice_limit->action_status = true;
+        $invoice_limit->view_status = true;
+        $invoice_limit->message = "Success";
+
+        $limit->user = $user_limit;
+        $limit->company = $company_limit;
+        $limit->invoice = $invoice_limit;
+
+        return $limit;
     }
 }
