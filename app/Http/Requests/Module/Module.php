@@ -29,7 +29,7 @@ class Module extends FormRequest
     public function rules()
     {
         return [
-            'api_key' => 'required|string|check',
+            'api_key' => 'nullable|string',
         ];
     }
 }
