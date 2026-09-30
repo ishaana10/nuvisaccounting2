@@ -58,45 +58,38 @@ trait Plans
 
     public function getPlanLimitByType($type): object
     {
-        if (! config('app.installed') || running_in_test()) {
-            $limit = new \stdClass();
+        $limit = new \stdClass();
 
-            $limit->action_status = true;
-            $limit->view_status = true;
-            $limit->message = "Success";
-
-            return $limit;
-        }
-
-        if (! $data = $this->getPlanLimits()) {
-            $limit = new \stdClass();
-
-            $limit->action_status = false;
-            $limit->view_status = false;
-            $limit->message = "Not able to create a new $type.";
-
-            return $limit;
-        }
-
-        $limit = $data->$type;
-
-        $limit->message = str_replace('{company_id}', company_id(), $limit->message);
+        $limit->action_status = true;
+        $limit->view_status = true;
+        $limit->message = "Success";
 
         return $limit;
     }
 
     public function getPlanLimits(): bool|object
     {
-        $key = 'plans.limits';
+        $limit = new \stdClass();
 
-        return Cache::remember($key, Date::now()->addHour(), function () {
-            $url = 'plans/limits';
+        $user_limit = new \stdClass();
+        $user_limit->action_status = true;
+        $user_limit->view_status = true;
+        $user_limit->message = "Success";
 
-            if (! $data = static::getResponseData('GET', $url, ['timeout' => 10])) {
-                return false;
-            }
+        $company_limit = new \stdClass();
+        $company_limit->action_status = true;
+        $company_limit->view_status = true;
+        $company_limit->message = "Success";
 
-            return $data;
-        });
+        $invoice_limit = new \stdClass();
+        $invoice_limit->action_status = true;
+        $invoice_limit->view_status = true;
+        $invoice_limit->message = "Success";
+
+        $limit->user = $user_limit;
+        $limit->company = $company_limit;
+        $limit->invoice = $invoice_limit;
+
+        return $limit;
     }
 }

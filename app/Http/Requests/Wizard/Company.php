@@ -44,12 +44,8 @@ class Company extends FormRequest
             'country' => 'required|string|in:' . $countries,
         ];
 
-        if (! setting('apps.api_key', false) && ! empty($this->request->get('api_key'))) {
-            $rules['api_key'] = 'string|check';
-        }
-
-        if (setting('apps.api_key', false) && (setting('apps.api_key', false) != $this->request->get('api_key'))) {
-            $rules['api_key'] = 'string|check';
+        if ($this->request->has('api_key')) {
+            $rules['api_key'] = 'nullable|string';
         }
 
         return $rules;

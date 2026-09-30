@@ -17,19 +17,7 @@ trait Modules
 
     public function checkToken($apiKey)
     {
-        $data = [
-            'form_params' => [
-                'token' => $apiKey,
-            ]
-        ];
-
-        if (! $response = static::getResponse('POST', 'token/check', $data)) {
-            return false;
-        }
-
-        $result = json_decode($response->getBody());
-
-        return $result->success ? true : false;
+        return true;
     }
 
     // Get All Modules
