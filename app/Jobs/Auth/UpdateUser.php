@@ -68,10 +68,12 @@ class UpdateUser extends Job implements ShouldUpdate
                 foreach ($sync['attached'] as $id) {
                     $company = Company::find($id);
 
-                    Artisan::call('user:seed', [
-                        'user' => $this->model->id,
-                        'company' => $company->id,
-                    ]);
+                    if ($company) {
+                        Artisan::call('user:seed', [
+                            'user' => $this->model->id,
+                            'company' => $company->id,
+                        ]);
+                    }
                 }
             }
         });
@@ -96,13 +98,13 @@ class UpdateUser extends Job implements ShouldUpdate
             $this->request->has('roles')
             && ! app()->runningInConsole()
             && ! request()->isInstall()
-            && ! user()->can('update-auth-users')
+            && ! user()?->can('update-auth-users')
         ) {
             $this->request->request->remove('roles');
         }
 
         // Can't disable yourself
-        if (($this->request->get('enabled', 1) == 0) && ($this->model->id == user()->id)) {
+        if (($this->request->get('enabled', 1) == 0) && user() && ($this->model->id == user()->id)) {
             $message = trans('auth.error.self_disable');
 
             throw new \Exception($message);
@@ -121,7 +123,7 @@ class UpdateUser extends Job implements ShouldUpdate
                 foreach ($company_diff as $company_id) {
                     $company = Company::withCount('users')->find($company_id);
 
-                    if ($company->users_count < 2) {
+                    if ($company && $company->users_count < 2) {
                         $errors[] = trans('auth.error.unassigned', ['company' => $company->name]);
                     }
                 }
