@@ -125,7 +125,7 @@ class Widgets
 
     public static function canRead($class)
     {
-        return user()->can(static::getPermission($class));
+        return user()?->can(static::getPermission($class)) ?? false;
     }
 
     public static function cannotRead($class)

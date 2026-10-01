@@ -56,7 +56,7 @@ class Overrider
 
         // Locale
         if (! session('locale')) {
-            $locale = user()->locale ?? setting('default.locale');
+            $locale = user()?->locale ?? setting('default.locale');
 
             app()->setLocale($locale);
         }
