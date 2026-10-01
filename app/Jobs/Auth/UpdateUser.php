@@ -45,7 +45,7 @@ class UpdateUser extends Job implements ShouldUpdate
             }
 
             if ($this->request->has('companies')) {
-                if (app()->runningInConsole() || request()->isInstall()) {
+                if (app()->runningInConsole() || request()->isInstall() || ! user()) {
                     $sync = $this->model->companies()->sync($this->request->get('companies'));
                 } else {
                     $user = user();

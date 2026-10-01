@@ -509,6 +509,6 @@ trait Permissions
 
         event(new \App\Events\Menu\ItemAuthorizing($item));
 
-        return user()->canAny($item->permissions);
+        return user()?->canAny($item->permissions) ?? false;
     }
 }
