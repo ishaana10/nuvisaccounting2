@@ -45,13 +45,17 @@ class CreateDashboard extends Job implements HasOwner, HasSource, ShouldCreate
         $list = [];
 
         if ($this->request->has('all_users')) {
-            Company::find($this->request->get('company_id'))->users()->each(function ($user) use (&$list) {
-                if (!$this->shouldCreateDashboardFor($user)) {
-                    return;
-                }
+            $company = Company::find($this->request->get('company_id'));
 
-                $list[] = $user->id;
-            });
+            if ($company) {
+                $company->users()->each(function ($user) use (&$list) {
+                    if (!$this->shouldCreateDashboardFor($user)) {
+                        return;
+                    }
+
+                    $list[] = $user->id;
+                });
+            }
         } elseif ($this->request->has('users')) {
             $user_ids = Arr::wrap($this->request->get('users'));
 
