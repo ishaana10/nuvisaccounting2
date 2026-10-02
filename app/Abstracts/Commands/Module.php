@@ -4,12 +4,14 @@ namespace App\Abstracts\Commands;
 
 use App\Models\Module\Module as Model;
 use App\Models\Module\ModuleHistory as ModelHistory;
+use App\Traits\Modules;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 use Symfony\Component\Console\Input\InputArgument;
 
 abstract class Module extends Command
 {
+    use Modules;
     public string $alias;
 
     public int $company_id;
@@ -61,7 +63,7 @@ abstract class Module extends Command
             return;
         }
 
-        $module = module($this->alias);
+        $module = $this->moduleExists($this->alias) ? module($this->alias) : null;
 
         ModelHistory::create([
             'company_id' => $this->company_id,

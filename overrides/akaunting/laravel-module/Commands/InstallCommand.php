@@ -37,6 +37,12 @@ class InstallCommand extends Command
             return;
         }
 
+        if (! $this->moduleExists($this->alias)) {
+            $this->comment("Module [{$this->alias}] directory or manifest missing, skipping installation.");
+
+            return;
+        }
+
         $this->changeRuntime();
 
         // Create db

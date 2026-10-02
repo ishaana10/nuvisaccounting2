@@ -29,11 +29,11 @@ class InstallExtraModules
             return;
         }
 
-        $module = module($event->alias);
-
-        if (empty($module)) {
+        if (!$this->moduleExists($event->alias)) {
             return;
         }
+
+        $module = module($event->alias);
 
         $extra_modules = $module->get('extra-modules');
 

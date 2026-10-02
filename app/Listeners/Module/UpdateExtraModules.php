@@ -3,12 +3,14 @@
 namespace App\Listeners\Module;
 
 use App\Events\Install\UpdateFinished as Event;
+use App\Traits\Modules;
 use App\Utilities\Console;
 use App\Utilities\Versions;
 use Illuminate\Support\Facades\App;
 
 class UpdateExtraModules
 {
+    use Modules;
     /**
      * Handle the event.
      *
@@ -25,11 +27,11 @@ class UpdateExtraModules
             return;
         }
 
-        $module = module($event->alias);
-
-        if (empty($module)) {
+        if (!$this->moduleExists($event->alias)) {
             return;
         }
+
+        $module = module($event->alias);
 
         $extra_modules = $module->get('extra-modules');
 
@@ -43,11 +45,11 @@ class UpdateExtraModules
                 continue;
             }
 
-            $extra_module = module($alias);
-
-            if (empty($extra_module)) {
+            if (!$this->moduleExists($alias)) {
                 continue;
             }
+
+            $extra_module = module($alias);
 
             $installed_version = $extra_module->get('version');
             $latest_version = Versions::latest($alias)?->latest;
