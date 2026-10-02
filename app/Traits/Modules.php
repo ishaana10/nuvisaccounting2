@@ -393,11 +393,15 @@ trait Modules
 
     public function moduleExists($alias)
     {
-        if (! module($alias) instanceof \Akaunting\Module\Module) {
+        try {
+            if (! module($alias) instanceof \Akaunting\Module\Module) {
+                return false;
+            }
+
+            return true;
+        } catch (\Throwable $e) {
             return false;
         }
-
-        return true;
     }
 
     public function moduleIsEnabled($alias): bool
