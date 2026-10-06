@@ -248,12 +248,14 @@ class Installer
 
     public static function createUser($email, $password, $locale)
     {
+        $company_id = \App\Models\Common\Company::latest()->first()?->id ?? '1';
+
         dispatch_sync(new CreateUser([
             'name' => '',
             'email' => $email,
             'password' => $password,
             'locale' => $locale,
-            'companies' => ['1'],
+            'companies' => [(string) $company_id],
             'roles' => ['1'],
             'enabled' => '1',
         ]));
