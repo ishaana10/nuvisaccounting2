@@ -3,12 +3,10 @@
 namespace App\Console\Commands;
 
 use App\Events\Install\UpdateFinished;
-use App\Traits\Modules;
 use Illuminate\Console\Command;
 
 class FinishUpdate extends Command
 {
-    use Modules;
     /**
      * The name and signature of the console command.
      *
@@ -42,7 +40,7 @@ class FinishUpdate extends Command
         $old = $this->argument('old');
 
         // Check if file mirror was successful
-        $version = ($alias == 'core') ? version('short') : ($this->moduleExists($alias) ? module($alias)?->get('version') : null);
+        $version = ($alias == 'core') ? version('short') : module($alias)->get('version');
         if ($version != $new) {
             logger($alias . ' update failed:: file version > ' . $version . ' -vs- ' . 'request version > ' . $new);
 

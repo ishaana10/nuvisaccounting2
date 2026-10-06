@@ -3,10 +3,11 @@
 namespace App\Listeners\Module;
 
 use App\Events\Install\UpdateFinished as Event;
-use App\Traits\Modules;
 use App\Utilities\Console;
 use App\Utilities\Versions;
 use Illuminate\Support\Facades\App;
+
+use App\Traits\Modules;
 
 class UpdateExtraModules
 {
