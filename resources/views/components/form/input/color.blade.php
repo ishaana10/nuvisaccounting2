@@ -1,5 +1,5 @@
 @stack($name . '_input_start')
-    <nuvisfinance-color
+    <akaunting-color
         @class([
             'relative',
             $formGroupClass,
@@ -73,5 +73,5 @@
         @else
         :form-error="form.errors.get('{{ $name }}')"
         @endif
-    ></nuvisfinance-color>
+    ></akaunting-color>
 @stack($name . '_input_end')

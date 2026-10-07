@@ -1,4 +1,4 @@
-<nuvisfinance-dropzone-file-upload
+<akaunting-dropzone-file-upload
     text-drop-file="{{ trans('general.form.drop_file') }}"
     text-choose-file="{{ trans('general.form.choose_file') }}"
 
@@ -80,4 +80,4 @@
     @endif
 
     v-model="{{ ! empty($attributes['v-model']) ? $attributes['v-model'] : (! empty($attributes['data-field']) ? 'form.' . $attributes['data-field'] . '.'. $name : 'form.' . $name) }}"
-></nuvisfinance-dropzone-file-upload>
+></akaunting-dropzone-file-upload>

@@ -1,4 +1,4 @@
-<nuvisfinance-html-editor
+<akaunting-html-editor
     name="{{ $name }}"
 
     @if (! empty($value))
@@ -22,4 +22,4 @@
     @if (isset($attributes['disabled']))
     :disabled="{{ $attributes['disabled'] }}"
     @endif
-></nuvisfinance-html-editor>
+></akaunting-html-editor>

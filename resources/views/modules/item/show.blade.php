@@ -259,7 +259,7 @@
         </div>
 
         @if ($module->install)
-            <nuvisfinance-modal
+            <akaunting-modal
                 :show="installation.show"
                 title="{{ trans('modules.installation.header') }}"
                 @cancel="installation.show = false"
@@ -274,7 +274,7 @@
                 <template #card-footer>
                     <span></span>
                 </template>
-            </nuvisfinance-modal>
+            </akaunting-modal>
         @endif
     </x-slot>
 

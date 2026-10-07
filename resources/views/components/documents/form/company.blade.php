@@ -40,7 +40,7 @@
 
         <div class="sm:col-span-2 relative">
             @if (! $hideCompanyEdit)
-                <nuvisfinance-company-edit
+                <akaunting-company-edit
                     company-id="{{ company_id() }}"
                     button-text="{{ trans('settings.company.edit_your_business_address') }}"
                     tax-number-text="{{ trans('general.tax_number') }}"
@@ -59,7 +59,7 @@
                             ]
                         ]
                     ])}}"
-                ></nuvisfinance-company-edit>
+                ></akaunting-company-edit>
             @endif
         </div>
     </x-slot>

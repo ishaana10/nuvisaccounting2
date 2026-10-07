@@ -22,7 +22,7 @@
     </x-slot>
 
     @push('content_content_end')
-        <nuvisfinance-modal
+        <akaunting-modal
             modal-dialog-class="max-w-screen-2xl"
             :show="template.modal"
             @cancel="template.modal = false"
@@ -47,7 +47,7 @@
                     </button>
                 </div>
             </template>
-        </nuvisfinance-modal>
+        </akaunting-modal>
     @endpush
 
     @push('stylesheet')

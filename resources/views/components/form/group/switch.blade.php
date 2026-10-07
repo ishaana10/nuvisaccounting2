@@ -1,6 +1,6 @@
 @stack($name . '_input_start')
 
-  <nuvisfinance-switch
+  <akaunting-switch
     name="{{ $name }}"
     value="{{ (int) $value }}"
     label="{{ trans('general.enabled') }}"
@@ -21,6 +21,6 @@
     @change="{{ $attributes['change'] }}($event)"
     @endif
     >
-  </nuvisfinance-switch>
+  </akaunting-switch>
 
 @stack($name . '_input_end')
