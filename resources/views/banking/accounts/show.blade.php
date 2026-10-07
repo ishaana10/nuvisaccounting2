@@ -457,7 +457,7 @@
             </x-show.content>
         </x-show.container>
 
-        <nuvisfinance-connect-transactions
+        <akaunting-connect-transactions
             :show="connect.show"
             :transaction="connect.transaction"
             :currency="connect.currency"
@@ -465,7 +465,7 @@
             :translations="connect.translations"
             modal-dialog-class="max-w-screen-lg"
             v-on:close-modal="connect.show = false"
-        ></nuvisfinance-connect-transactions>
+        ></akaunting-connect-transactions>
     </x-slot>
 
     <x-script folder="banking" file="accounts" />

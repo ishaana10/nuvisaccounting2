@@ -29,7 +29,7 @@
         </div>
 
         <div class="hidden lg:block">
-            <img src="{{ asset('/public/img/nuvisfinance-logo-gold.png') }}" class="h-40" alt="NuvisFinance" />
+            <img src="{{ asset('/public/img/akaunting-logo-gold.png') }}" class="h-40" alt="NuvisFinance" />
         </div>
     </div>
 @endif

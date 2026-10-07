@@ -1,4 +1,4 @@
-<nuvisfinance-edit-item-columns
+<akaunting-edit-item-columns
     type="{{ $type }}"
     :edit-column="{{ json_encode([
         'status' => true,
@@ -15,4 +15,4 @@
             ]
         ]
     ]) }}"
-></nuvisfinance-edit-item-columns>
+></akaunting-edit-item-columns>

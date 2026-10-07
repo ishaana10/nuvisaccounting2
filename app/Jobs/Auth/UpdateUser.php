@@ -45,7 +45,7 @@ class UpdateUser extends Job implements ShouldUpdate
             }
 
             if ($this->request->has('companies')) {
-                if (app()->runningInConsole() || request()->isInstall() || ! user()) {
+                if (app()->runningInConsole() || request()->isInstall()) {
                     $sync = $this->model->companies()->sync($this->request->get('companies'));
                 } else {
                     $user = user();
@@ -68,12 +68,10 @@ class UpdateUser extends Job implements ShouldUpdate
                 foreach ($sync['attached'] as $id) {
                     $company = Company::find($id);
 
-                    if ($company) {
-                        Artisan::call('user:seed', [
-                            'user' => $this->model->id,
-                            'company' => $company->id,
-                        ]);
-                    }
+                    Artisan::call('user:seed', [
+                        'user' => $this->model->id,
+                        'company' => $company->id,
+                    ]);
                 }
             }
         });

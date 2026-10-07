@@ -1,7 +1,7 @@
 @if (! empty($remote))
-<nuvisfinance-select-remote
+<akaunting-select-remote
 @else
-<nuvisfinance-select
+<akaunting-select
 @endif
     @class([
         'relative',
@@ -174,7 +174,7 @@
     @endif
 >
 @if (! empty($remote))
-</nuvisfinance-select-remote>
+</akaunting-select-remote>
 @else
-</nuvisfinance-select>
+</akaunting-select>
 @endif

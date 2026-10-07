@@ -1,4 +1,4 @@
-<nuvisfinance-recurring
+<akaunting-recurring
     start-text="{!! trans('recurring.limit_date', ['type' => Str::replace('-recurring', '', $type)]) !!}"
     :date-range-text="{{ json_encode(trans('general.date_range')) }}"
     middle-text="{!! trans('recurring.limit_middle') !!}"
@@ -83,4 +83,4 @@
 
     {{ $attributes }}
 >
-</nuvisfinance-recurring>
+</akaunting-recurring>

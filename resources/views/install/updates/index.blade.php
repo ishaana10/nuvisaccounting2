@@ -126,7 +126,7 @@
             </x-table>
         </x-index.container>
 
-        <nuvisfinance-modal v-if="changelog.show"
+        <akaunting-modal v-if="changelog.show"
             modal-dialog-class="max-w-screen-xl change-log-modal"
             :show="changelog.show"
             :title="'{{ trans('updates.changelog') }}'"
@@ -135,7 +135,7 @@
             <template #card-footer>
                 <span></span>
             </template>
-        </nuvisfinance-modal>
+        </akaunting-modal>
     </x-slot>
 
     <x-script folder="install" file="update" />

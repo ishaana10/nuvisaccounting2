@@ -1,6 +1,6 @@
 {
-    "name": "akaunting/akaunting",
-    "description": "Online accounting software built with Laravel",
+    "name": "nuvisaccountx/nuvisaccountx",
+    "description": "Nuvis AccountX - Free and Open Source Accounting Software",
     "homepage": "https://akaunting.com",
     "keywords": [
         "laravel",
@@ -92,13 +92,19 @@
             "dont-discover": []
         },
         "installer-paths": {
-            "modules/OfflinePayments": ["akaunting/module-offline-payments"],
-            "modules/PaypalStandard": ["akaunting/module-paypal-standard"]
+            "modules/OfflinePayments": [
+                "akaunting/module-offline-payments"
+            ],
+            "modules/PaypalStandard": [
+                "akaunting/module-paypal-standard"
+            ]
         }
     },
     "autoload": {
         "psr-4": {
-            "App\\": ["app/"],
+            "App\\": [
+                "app/"
+            ],
             "Akaunting\\Module\\Commands\\": "overrides/akaunting/laravel-module/Commands/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeds\\": "database/seeds/",

@@ -22,8 +22,8 @@ return [
         ],
     ],
 
-    'docs_link'             => 'https://nuvisfinance.com/docs',
-    'support_link'          => 'https://nuvisfinance.com/support',
+    'docs_link'             => 'https://nuvisaccountx.com',
+    'support_link'          => 'https://nuvisaccountx.com',
 
     'favorite' => [
         'added_favorite'    => 'Added to favourites',

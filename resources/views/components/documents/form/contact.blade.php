@@ -1,4 +1,4 @@
-<nuvisfinance-contact-card
+<akaunting-contact-card
     placeholder="{{ $placeholder }}"
     no-data-text="{{ trans('general.no_data') }}"
     no-matching-data-text="{{ trans('general.no_matching_data') }}"
@@ -30,4 +30,4 @@
     :error="{{ $error }}"
 
     @change="onChangeContactCard"
-></nuvisfinance-contact-card>
+></akaunting-contact-card>

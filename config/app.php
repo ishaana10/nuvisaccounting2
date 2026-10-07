@@ -14,7 +14,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => env('APP_NAME', 'NuvisAccountx'),
+    'name' => env('APP_NAME', 'Nuvis AccountX'),
 
     'installed' => (bool) env('APP_INSTALLED', false),
 
@@ -138,7 +138,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'JustAKeyForNuvisAccountxInstallation'),
+    'key' => env('APP_KEY', 'JustAKeyForNuvisAccountXInstallation'),
 
     'cipher' => env('APP_CIPHER', 'AES-256-CBC'),
 

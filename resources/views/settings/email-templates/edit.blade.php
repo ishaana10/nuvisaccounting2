@@ -49,11 +49,11 @@
                                         {{ trans('settings.email.templates.body') }}
                                     </x-form.label>
 
-                                    <nuvisfinance-html-editor
+                                    <akaunting-html-editor
                                         name="body"
                                         v-model='form.body'
                                         :model='form.body'
-                                    ></nuvisfinance-html-editor>
+                                    ></akaunting-html-editor>
                                 </div>
 
                                 <div class="sm:col-span-6 required" v-if='form.body == null'>
