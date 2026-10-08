@@ -102,7 +102,7 @@
                                             :class="[{'btn-outline-primary' : form.discount_type !== 'fixed'}, {'bg-white rounded-lg' : form.discount_type === 'fixed'}]"
                                             @click="onChangeDiscountType('fixed')"
                                         >
-                                            {{ $currency->symbol }}
+                                            {{ $currency?->symbol ?? '$' }}
                                         </button>
                                     </div>
 
@@ -180,7 +180,7 @@
                             <x-form.group.select
                                 name="currency_code"
                                 :options="$currencies"
-                                selected="{{ $currency->code }}"
+                                selected="{{ $currency?->code ?? 'USD' }}"
                                 change="onChangeCurrency"
                                 model="form.currency_code"
                                 add-new
@@ -193,7 +193,7 @@
                                 form-group-class="h-8 -mt-2"
                             />
 
-                            <x-form.input.hidden name="currency_rate" :value="(!empty($document)) ? $document->currency_rate : $currency->rate" />
+                            <x-form.input.hidden name="currency_rate" :value="(!empty($document)) ? $document->currency_rate : ($currency?->rate ?? 1)" />
                         </td>
 
                         <td class="ltr:text-right rtl:text-left border-t-0 long-texts pt-5 pb-0 ltr:pr-0 rtl:pl-0">
@@ -220,8 +220,8 @@
                     @stack('currency_conversion_td_start')
 
                     <tr id="tr-currency-conversion" :class="[
-                        {'hidden': ! (('{{ $currency->code }}' != form.currency_code) && totals.total || dropdown_visible)},
-                        {'contents': (('{{ $currency->code }}' != form.currency_code) && totals.total || dropdown_visible)}
+                        {'hidden': ! (('{{ $currency?->code ?? 'USD' }}' != form.currency_code) && totals.total || dropdown_visible)},
+                        {'contents': (('{{ $currency?->code ?? 'USD' }}' != form.currency_code) && totals.total || dropdown_visible)}
                     ]">
                         <td class="border-t-0 pt-5 pb-0"></td>
 

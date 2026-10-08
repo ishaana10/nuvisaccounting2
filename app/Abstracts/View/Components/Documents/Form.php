@@ -491,6 +491,24 @@ abstract class Form extends Component
             $currency = Currency::where('code', default_currency())->first();
         }
 
+        if (empty($currency)) {
+            $currency = Currency::first();
+        }
+
+        if (empty($currency)) {
+            $currency = new Currency([
+                'code' => default_currency() ?: 'USD',
+                'name' => 'US Dollar',
+                'symbol' => '$',
+                'rate' => 1,
+                'precision' => 2,
+                'symbol_first' => 1,
+                'decimal_mark' => '.',
+                'thousands_separator' => ',',
+                'enabled' => 1,
+            ]);
+        }
+
         return $currency;
     }
 
