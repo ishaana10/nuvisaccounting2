@@ -45,7 +45,7 @@ return [
     ],
 
     'update' => [
-        'core'              => 'Nova različica NuvisAccountX je na voljo! Prosimo posodobite vašo namestitev.',
-        'module'            => 'Nova različica NuvisAccountX je na voljo! Prosimo posodobite vašo namestitev.',
+        'core'              => 'Nova različica NuvisFinance je na voljo! Prosimo posodobite vašo namestitev.',
+        'module'            => 'Nova različica NuvisFinance je na voljo! Prosimo posodobite vašo namestitev.',
     ],
 ];

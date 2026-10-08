@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'เวอร์ชัน',
-    'powered'               => 'ขับเคลื่อน โดย NuvisAccountX',
-    'link'                  => 'https://nuvisaccountx.com.fj',
+    'powered'               => 'ขับเคลื่อน โดย NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'ซอฟต์แวร์บัญชีฟรี',
 
 ];

@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Ha recibido este correo electrónico porque se le ha invitado a unirse a NuvisAccountX.',
+        'message_1'         => 'Ha recibido este correo electrónico porque se le ha invitado a unirse a NuvisFinance.',
         'message_2'         => 'Si no desea unirse, no se requiere ninguna acción adicional.',
         'button'            => 'Comenzar',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Cree facturas fácilmente',
         'reports'           => 'Obtenga informes detallados',
         'expense'           => 'Controle todos sus gastos',
-        'customize'         => 'Personalice su NuvisAccountX',
+        'customize'         => 'Personalice su NuvisFinance',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Administrador',
-            'description'   => 'Tienen acceso completo a NuvisAccountX, incluidos clientes, facturas, informes, configuración y aplicaciones.',
+            'description'   => 'Tienen acceso completo a NuvisFinance, incluidos clientes, facturas, informes, configuración y aplicaciones.',
         ],
         'manager' => [
             'name'          => 'Gestor',
-            'description'   => 'Tienen acceso completo a NuvisAccountX, pero no pueden gestionar usuarios ni aplicaciones.',
+            'description'   => 'Tienen acceso completo a NuvisFinance, pero no pueden gestionar usuarios ni aplicaciones.',
         ],
         'customer' => [
             'name'          => 'Cliente',

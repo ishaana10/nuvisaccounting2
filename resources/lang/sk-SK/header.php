@@ -11,6 +11,6 @@ return [
         'items_stock'       => '{1} :count položka nie na sklade|[2,*] :count položiek nie sú na sklade',
         'view_all'          => 'Zobraziť všetko'
     ],
-    'docs_link'             => 'https://nuvisaccountx.com.fj/docs',
+    'docs_link'             => 'https://nuvisfinance.com/docs',
 
 ];

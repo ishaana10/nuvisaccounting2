@@ -5,7 +5,7 @@
 
     <x-slot name="content">
         <div>
-            <img src="{{ asset('public/img/nuvisAccountX-logo.png') }}" class="w-16" alt="NuvisAccountX" />
+            <img src="{{ asset('public/img/nuvisAccountX-logo.png') }}" class="w-16" alt="NuvisFinance" />
 
             <h1 class="text-lg my-3">
                 {{ trans('auth.reset_password') }}

@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'نسخه',
-    'powered'               => 'طراحی شده توسط NuvisAccountX',
-    'link'                  => 'https://nuvisaccountx.com.fj',
+    'powered'               => 'طراحی شده توسط NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'نرم افزار حسابداری رایگان',
 
 ];

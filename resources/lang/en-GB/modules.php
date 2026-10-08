@@ -47,7 +47,7 @@ return [
     'get_cloud'             => 'Get Cloud Service',
     'get_premium_cloud'     => 'Get Premium Cloud',
     'switch_to_cloud'       => 'Switch to Cloud',
-    'hosted_on_nuvisaccountx'   => 'Hosted on Nuvis AccountX.com',
+    'hosted_on_nuvisfinance'   => 'Hosted on Nuvis AccountX.com',
     'information_on_preme'  => ':period option is available only on <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Cloud.</strong></a>',
     'information_monthly'   => 'This option is valid only for <a href=":url" target="_blank" class="to-black-400 hover:bg-full-2 bg-no-repeat bg-0-2 bg-0-full bg-gradient-to-b from-transparent transition-backgroundSize"><strong>Cloud Service</strong></a>',
     'only_works_cloud'      => 'This app is available only on <strong>Cloud</strong>.',

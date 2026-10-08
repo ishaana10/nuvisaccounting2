@@ -9,16 +9,16 @@
     <body class="bg-gray-50 text-gray-800 antialiased font-sans">
         @stack('body_start')
 
-        <div class="min-h-screen flex items-center justify-center bg-no-repeat bg-cover bg-center py-8 px-4 sm:px-6 lg:px-8" style="background-image: url({{ asset('public/img/auth/login-bg.png') }});">
+        <div class="min-h-screen flex items-center justify-center bg-no-repeat bg-cover bg-center py-8 px-4 sm:px-6 lg:px-8" style="background-image: none;">
             @if (! file_exists(public_path('js/install.min.js')))
                 <div class="relative w-full max-w-5xl flex flex-col lg:flex-row items-center justify-between bg-white/90 backdrop-blur-md rounded-2xl shadow-xl p-8 border border-gray-100">
                     <div class="lg:w-1/2 flex flex-col items-center justify-center p-6">
-                        <img src="{{ asset('public/img/empty_pages/transactions.png') }}" class="max-w-xs drop-shadow-md" alt="NuvisAccountX Installation" />
+                        <img src="{{ asset('public/img/empty_pages/transactions.png') }}" class="max-w-xs drop-shadow-md" alt="NuvisFinance Installation" />
                     </div>
 
                     <div class="w-full lg:w-1/2 flex flex-col justify-center gap-6 p-6">
                         <div class="flex flex-col items-start gap-4">
-                            <img src="{{ asset('public/img/nuvisAccountX-logo.png') }}" class="h-10 my-1" alt="NuvisAccountX" />
+                            <img src="{{ asset('public/img/nuvisAccountX-logo.png') }}" class="h-10 my-1" alt="NuvisFinance" />
                             <h2 class="text-2xl font-bold text-gray-900">Installation Setup</h2>
 
                             <div class="w-full rounded-xl p-4 bg-red-50 border border-red-200 text-sm text-red-600 shadow-sm">
@@ -36,7 +36,7 @@
                     <div class="w-full lg:w-1/2 flex flex-col justify-center px-8 lg:px-12 py-10 my-auto">
                         <div class="flex flex-col gap-6">
                             <div class="flex items-center justify-between border-b border-gray-100 pb-4">
-                                <img src="{{ asset('public/img/nuvisAccountX-logo.png') }}" class="h-9" alt="NuvisAccountX" />
+                                <img src="{{ asset('public/img/nuvisAccountX-logo.png') }}" class="h-9" alt="NuvisFinance" />
                                 <span class="text-xs font-semibold px-3 py-1 rounded-full bg-green-50 text-green-700 border border-green-200 shadow-xs">Installer</span>
                             </div>
 

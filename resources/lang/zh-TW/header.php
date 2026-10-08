@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count 張即將到來的帳單 | [2,*] :count 張即將到來的帳單',
         'view_all'          => '檢視全部'
     ],
-    'docs_link'             => 'https://nuvisaccountx.com.fj/docs',
-    'support_link'          => 'https://nuvisaccountx.com.fj/support',
+    'docs_link'             => 'https://nuvisfinance.com/docs',
+    'support_link'          => 'https://nuvisfinance.com/support',
 
 ];

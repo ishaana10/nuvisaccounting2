@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Du modtager denne e-mail, fordi du er inviteret til at deltage i NuvisAccountX.',
+        'message_1'         => 'Du modtager denne e-mail, fordi du er inviteret til at deltage i NuvisFinance.',
         'message_2'         => 'Hvis du ikke ønsker at deltage, er der ikke behov for yderligere handling.',
         'button'            => 'Kom i gang',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Opret nemt fakturaer',
         'reports'           => 'Hent detaljerede rapporter',
         'expense'           => 'Spor enhver udgift',
-        'customize'         => 'Tilpas din NuvisAccountX',
+        'customize'         => 'Tilpas din NuvisFinance',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Admin',
-            'description'   => 'De får fuld adgang til din NuvisAccountX herunder kunder, fakturaer, rapporter, indstillinger og apps.',
+            'description'   => 'De får fuld adgang til din NuvisFinance herunder kunder, fakturaer, rapporter, indstillinger og apps.',
         ],
         'manager' => [
             'name'          => 'Leder',
-            'description'   => 'De får fuld adgang til din NuvisAccountX, men kan ikke administrere brugere og apps.',
+            'description'   => 'De får fuld adgang til din NuvisFinance, men kan ikke administrere brugere og apps.',
         ],
         'customer' => [
             'name'          => 'Kunde',

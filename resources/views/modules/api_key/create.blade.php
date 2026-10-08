@@ -11,7 +11,7 @@
 
                     <div class="sm:col-span-6">
                         <div class="text-xs">
-                            {!! trans('modules.get_api_key', ['url' => 'https://nuvisaccountx.com.fj/dashboard']) !!}
+                            {!! trans('modules.get_api_key', ['url' => 'https://nuvisfinance.com/dashboard']) !!}
                         </div>
                     </div>
 

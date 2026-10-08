@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Versioni',
-    'powered'               => 'Mundësuar nga NuvisAccountX',
-    'link'                  => 'https://nuvisaccountx.com.fj',
+    'powered'               => 'Mundësuar nga NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Program Kontabiliteti Falas',
 
 ];

@@ -50,9 +50,9 @@ return [
 
     'messages' => [
         'update_document_transaction' => 'Μπορείτε να ενημερώσετε αυτή τη συναλλαγή. Μεταβείτε στο έγγραφο και επεξεργαστείτε την εκεί.',
-        'create_document_transaction_error' => 'Αυτό το τελικό σημείο δεν μπορεί να προστεθεί σε έγγραφο. Χρησιμοποιήστε {{nuvisaccountx_url}}/documents/{{nuvisaccountx_document_id}}/transactions',
-        'update_document_transaction_error' => 'Αυτό το τελικό σημείο δεν μπορεί να ενημερωθεί σε έγγραφο. Χρησιμοποιήστε {{nuvisaccountx_url}}/documents/{{nuvisaccountx_document_id}}/transactions/{nuvisaccountx_transaction_id}',
-        'delete_document_transaction_error' => 'Αυτό το τελικό σημείο δεν μπορεί να διαγραφεί από έγγραφο. Χρησιμοποιήστε {{nuvisaccountx_url}}/documents/{{nuvisaccountx_document_id}}/transactions/{nuvisaccountx_transaction_id}',
+        'create_document_transaction_error' => 'Αυτό το τελικό σημείο δεν μπορεί να προστεθεί σε έγγραφο. Χρησιμοποιήστε {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions',
+        'update_document_transaction_error' => 'Αυτό το τελικό σημείο δεν μπορεί να ενημερωθεί σε έγγραφο. Χρησιμοποιήστε {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
+        'delete_document_transaction_error' => 'Αυτό το τελικό σημείο δεν μπορεί να διαγραφεί από έγγραφο. Χρησιμοποιήστε {{nuvisfinance_url}}/documents/{{nuvisfinance_document_id}}/transactions/{nuvisfinance_transaction_id}',
     ]
 
 ];

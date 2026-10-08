@@ -22,8 +22,8 @@ return [
         ],
     ],
 
-    'docs_link'             => 'https://nuvisaccountx.com.fj',
-    'support_link'          => 'https://nuvisaccountx.com.fj/support',
+    'docs_link'             => 'https://nuvisfinance.com',
+    'support_link'          => 'https://nuvisfinance.com/support',
 
     'favorite' => [
         'added_favorite'    => 'Pievienota pie favorītiem',

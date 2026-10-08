@@ -1,1 +1,1 @@
-<img src="{{ asset('vendor/nuvisaccountx/language/src/Resources/assets/img/flags/'. $code .'.png') }}" alt="{{ $name }}" width="24px" />
+<img src="{{ asset('vendor/nuvisfinance/language/src/Resources/assets/img/flags/'. $code .'.png') }}" alt="{{ $name }}" width="24px" />

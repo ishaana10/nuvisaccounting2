@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count faturë e ardhshme |[2,*] :count fatura të ardhshme',
         'view_all'          => 'Shiko te Gjitha'
     ],
-    'docs_link'             => 'https://nuvisaccountx.com.fj/docs',
-    'support_link'          => 'https://nuvisaccountx.com.fj/support',
+    'docs_link'             => 'https://nuvisfinance.com/docs',
+    'support_link'          => 'https://nuvisfinance.com/support',
 
 ];

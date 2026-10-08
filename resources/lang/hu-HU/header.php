@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count közelgő számla|[2,*] :count közelgő számla',
         'view_all'          => 'Az összes megtekintése'
     ],
-    'docs_link'             => 'https://nuvisaccountx.com.fj/docs',
-    'support_link'          => 'https://nuvisaccountx.com.fj/support',
+    'docs_link'             => 'https://nuvisfinance.com/docs',
+    'support_link'          => 'https://nuvisfinance.com/support',
 
 ];

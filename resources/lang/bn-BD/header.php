@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count টি আসন্ন বিল|[2,*] :count টি আসন্ন বিল',
         'view_all'          => 'সবগুলো দেখুন'
     ],
-    'docs_link'             => 'https://nuvisaccountx.com.fj/docs',
-    'support_link'          => 'https://nuvisaccountx.com.fj/support',
+    'docs_link'             => 'https://nuvisfinance.com/docs',
+    'support_link'          => 'https://nuvisfinance.com/support',
 
 ];

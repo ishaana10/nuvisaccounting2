@@ -7,8 +7,8 @@ return [
     'update'                => ':version sürümüne güncelle',
     'changelog'             => 'Değişiklik Kaydı',
     'check'                 => 'Yenile',
-    'new_core'              => 'NuvisAccountX\'in güncel bir sürümü mevcut.',
-    'latest_core'           => 'Tebrikler! NuvisAccountX\'in en son sürümüne sahip oldunuz. Güvenlik güncellemeleri otomatik olarak uygulanacaktır.',
+    'new_core'              => 'NuvisFinance\'in güncel bir sürümü mevcut.',
+    'latest_core'           => 'Tebrikler! NuvisFinance\'in en son sürümüne sahip oldunuz. Güvenlik güncellemeleri otomatik olarak uygulanacaktır.',
     'success'               => 'Güncelleme işlemi başarıyla tamamlandı.',
     'error'                 => 'Güncelleme işlemi başarısız oldu, lütfen yeniden deneyin.',
 

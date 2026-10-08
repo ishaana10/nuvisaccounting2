@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Versio',
-    'powered'               => 'Toteutettu ohjelmistolla NuvisAccountX',
-    'link'                  => 'https://nuvisaccountx.com.fj',
+    'powered'               => 'Toteutettu ohjelmistolla NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Ilmainen kirjanpito-ohjelma',
 
 ];

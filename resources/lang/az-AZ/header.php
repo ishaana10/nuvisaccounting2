@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count Yaxınlaşan Faktura Mövcuddur|[2,*] :count Yaxınlaşan Faktura Mövcuddur',
         'view_all'          => 'Hamısını göstər'
     ],
-    'docs_link'             => 'https://nuvisaccountx.com.fj/docs',
-    'support_link'          => 'https://nuvisaccountx.com.fj/support',
+    'docs_link'             => 'https://nuvisfinance.com/docs',
+    'support_link'          => 'https://nuvisfinance.com/support',
 
 ];

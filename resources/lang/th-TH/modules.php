@@ -12,9 +12,9 @@ return [
     'search'                => 'ค้นหา',
     'install'               => 'ติดตั้ง',
     'buy_now'               => 'ซื้อตอนนี้',
-    'token_link'            => '<a href="https://nuvisaccountx.com.fj/tokens" target="_blank">คลิกที่นี่ที่</a> รับโทเค็นของคุณ API',
+    'token_link'            => '<a href="https://nuvisfinance.com/tokens" target="_blank">คลิกที่นี่ที่</a> รับโทเค็นของคุณ API',
     'no_apps'               => 'ยังไม่มีแอปพลิเคชันในหมวดหมู่นี้',
-    'developer'             => 'คุณเป็นนักพัฒนาใช่มั้ย? <a href="https://nuvisaccountx.com.fj/blog/nuvisaccountx-app-store" target="_blank">ที่นี่</a> คุณสามารถเรียนรู้วิธีการสร้างโปรแกรมประยุกต์และเริ่มขายวันนี้!',
+    'developer'             => 'คุณเป็นนักพัฒนาใช่มั้ย? <a href="https://nuvisfinance.com/blog/nuvisfinance-app-store" target="_blank">ที่นี่</a> คุณสามารถเรียนรู้วิธีการสร้างโปรแกรมประยุกต์และเริ่มขายวันนี้!',
 
     'recommended_apps'      => 'แอปที่แนะนำ',
 
@@ -57,8 +57,8 @@ return [
         'file_copy' => ':module files can not copy!',
         'migrate' => ':module migrate broken!',
         'migrate core' => ': โมดูลเป็นรุ่นล่าสุดอยู่แล้วดังนั้นจึงไม่สามารถอับเดทได้',
-        'disable_protected' => ':module is required by NuvisAccountX, so it cannot be disabled.',
-        'uninstall_protected' => ':module is required by NuvisAccountX, so it cannot be uninstalled.',
+        'disable_protected' => ':module is required by NuvisFinance, so it cannot be disabled.',
+        'uninstall_protected' => ':module is required by NuvisFinance, so it cannot be uninstalled.',
     ],
 
     'badge' => [

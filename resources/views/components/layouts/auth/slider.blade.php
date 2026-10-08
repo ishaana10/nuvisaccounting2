@@ -4,8 +4,8 @@
         <div class="swiper-container h-full -mt-12">
             <div class="swiper-wrapper">
                 <div class="swiper-slide flex justify-center flex-col items-center">
-                    <div style="width:450px; height:450px;">
-                        <img src="{{ asset('public/img/auth/folder.png') }}" alt="{{ trans('auth.information.invoice') }}" />
+                    <div class="flex items-center justify-center p-4" style="max-width:450px;">
+                        <img src="{{ asset('public/img/auth/nuvis_banner.jpg') }}" alt="{{ trans('auth.information.invoice') }}" class="rounded-lg shadow-md object-contain max-h-[450px]" />
                     </div>
 
                     <h1 class="text-3xl text-black-400 font-bold">
@@ -14,8 +14,8 @@
                 </div>
 
                 <div class="swiper-slide flex justify-center flex-col items-center">
-                    <div style="width:450px; height:450px;">
-                        <img src="{{ asset('public/img/auth/chart.png') }}" alt="{{ trans('auth.information.reports') }}" />
+                    <div class="flex items-center justify-center p-4" style="max-width:450px;">
+                        <img src="{{ asset('public/img/auth/nuvis_banner.jpg') }}" alt="{{ trans('auth.information.reports') }}" class="rounded-lg shadow-md object-contain max-h-[450px]" />
                     </div>
 
                     <h1 class="text-3xl text-black-400 font-bold">
@@ -24,8 +24,8 @@
                 </div>
 
                 <div class="swiper-slide flex justify-center flex-col items-center">
-                    <div style="width:450px; height:450px;">
-                        <img src="{{ asset('public/img/auth/client.png') }}" alt="{{ trans('auth.information.expense') }}" />
+                    <div class="flex items-center justify-center p-4" style="max-width:450px;">
+                        <img src="{{ asset('public/img/auth/nuvis_banner.jpg') }}" alt="{{ trans('auth.information.expense') }}" class="rounded-lg shadow-md object-contain max-h-[450px]" />
                     </div>
 
                     <h1 class="text-3xl text-black-400 font-bold">
@@ -34,8 +34,8 @@
                 </div>
 
                 <div class="swiper-slide flex justify-center flex-col items-center">
-                    <div style="width:450px; height:450px;">
-                        <img src="{{ asset('public/img/auth/layout.png') }}" alt="{{ trans('general.dashboard') }}" />
+                    <div class="flex items-center justify-center p-4" style="max-width:450px;">
+                        <img src="{{ asset('public/img/auth/nuvis_banner.jpg') }}" alt="{{ trans('general.dashboard') }}" class="rounded-lg shadow-md object-contain max-h-[450px]" />
                     </div>
 
                     <h1 class="text-3xl text-black-400 font-bold">

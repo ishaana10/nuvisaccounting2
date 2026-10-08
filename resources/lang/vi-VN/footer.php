@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Phiên bản',
-    'powered'               => 'Powered By NuvisAccountX',
-    'link'                  => 'https://nuvisaccountx.com.fj',
+    'powered'               => 'Powered By NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Phần mềm kế toán miễn phí',
 
 ];

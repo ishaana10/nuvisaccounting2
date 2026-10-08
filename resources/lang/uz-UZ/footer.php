@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Rusum',
-    'powered'               => 'NuvisAccountX tizimida ishlaydi',
-    'link'                  => 'https://nuvisaccountx.com.fj',
+    'powered'               => 'NuvisFinance tizimida ishlaydi',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Bepul buxgalteriya dasturi',
 
 ];

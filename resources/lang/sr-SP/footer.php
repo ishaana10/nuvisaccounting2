@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Верзија',
-    'powered'               => 'Омогућио вам је NuvisAccountX',
-    'link'                  => 'https://nuvisaccountx.com.fj',
+    'powered'               => 'Омогућио вам је NuvisFinance',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => 'Слободан рачуноводствени програм',
 
 ];

@@ -3,8 +3,8 @@
 return [
 
     'version'               => '製品版',
-    'powered'               => 'NuvisAccountXによって供給',
-    'link'                  => 'https://nuvisaccountx.com.fj',
+    'powered'               => 'NuvisFinanceによって供給',
+    'link'                  => 'https://nuvisfinance.com',
     'software'              => '無料会計ソフトウェア',
 
 ];
