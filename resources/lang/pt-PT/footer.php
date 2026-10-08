@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Versão',
-    'powered'               => 'Desenvolvido por NuvisFinance',
-    'link'                  => 'https://nuvisfinance.com',
+    'powered'               => 'Desenvolvido por NuvisAccountX',
+    'link'                  => 'https://nuvisaccountx.com.fj',
     'software'              => 'Software de contabilidade gratuito',
 
 ];

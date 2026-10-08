@@ -57,7 +57,7 @@ Napaka: ni mogoče preklicati podjetja! Podjetju :company mora biti dodeljen vsa
 
     'invitation' => [
         'message_1'         => '
-To e-pošto ste prejeli, ker ste vabljeni, da se pridružite Programu NuvisFinance.',
+To e-pošto ste prejeli, ker ste vabljeni, da se pridružite Programu NuvisAccountX.',
         'message_2'         => 'Če se ne želite pridružiti, vam ni treba storiti ničesar več.',
         'button'            => 'Začnite',
     ],
@@ -68,7 +68,7 @@ To e-pošto ste prejeli, ker ste vabljeni, da se pridružite Programu NuvisFinan
         'expense'           => '
 Spremljajte kakršne koli stroške',
         'customize'         => '
-Prilagodite svoj NuvisFinance',
+Prilagodite svoj NuvisAccountX',
     ],
 
     'roles' => [
@@ -78,7 +78,7 @@ Prilagodite svoj NuvisFinance',
         ],
         'manager' => [
             'name'          => 'Upravitelj',
-            'description'   => 'Dobijo popoln dostop do vašega NuvisFinancea, vendar ne morejo upravljati uporabnikov in aplikacij.',
+            'description'   => 'Dobijo popoln dostop do vašega NuvisAccountXa, vendar ne morejo upravljati uporabnikov in aplikacij.',
         ],
         'customer' => [
             'name'          => 'Stranka',

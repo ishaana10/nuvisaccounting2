@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Útgáfa',
-    'powered'               => 'Keyrt af NuvisFinance',
-    'link'                  => 'https://nuvisfinance.com',
+    'powered'               => 'Keyrt af NuvisAccountX',
+    'link'                  => 'https://nuvisaccountx.com.fj',
     'software'              => 'Opinn bókhalds hugbúnaður',
 
 ];

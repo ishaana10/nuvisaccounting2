@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count væntanlegur reikningur|[2,*] :count væntanlegir reikningar',
         'view_all'          => 'Birta allt'
     ],
-    'docs_link'             => 'https://nuvisfinance.com/docs',
-    'support_link'          => 'https://nuvisfinance.com/support',
+    'docs_link'             => 'https://nuvisaccountx.com.fj/docs',
+    'support_link'          => 'https://nuvisaccountx.com.fj/support',
 
 ];

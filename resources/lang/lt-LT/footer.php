@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Versija',
-    'powered'               => 'Sukurta NuvisFinance',
-    'link'                  => 'https://nuvisfinance.com',
+    'powered'               => 'Sukurta NuvisAccountX',
+    'link'                  => 'https://nuvisaccountx.com.fj',
     'software'              => 'Laisva apskaitos programa',
 
 ];

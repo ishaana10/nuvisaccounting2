@@ -44,7 +44,7 @@ return [
     ],
 
     'update' => [
-        'core'              => 'NuvisFinanceust on uus versioon! Palun uuenda enda installatsiooni.',
+        'core'              => 'NuvisAccountXust on uus versioon! Palun uuenda enda installatsiooni.',
         'module'            => ':module-st on uus versioon! Palun uuenda enda installatsiooni.',
     ],
 ];

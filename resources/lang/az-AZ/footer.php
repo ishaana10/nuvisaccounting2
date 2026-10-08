@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Versiya',
-    'powered'               => 'NuvisFinance tərəfindən',
-    'link'                  => 'https://nuvisfinance.com/tr',
+    'powered'               => 'NuvisAccountX tərəfindən',
+    'link'                  => 'https://nuvisaccountx.com.fj/tr',
     'software'              => 'Pulsuz Ön Muhasibat Proqramı',
 
 ];

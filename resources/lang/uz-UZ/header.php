@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1}: kelayotgan hisob-kitoblarni hisoblash | [2, *]: kelayotgan hisob-kitoblarni hisoblang',
         'view_all'          => 'Hammasini ko\'rish'
     ],
-    'docs_link'             => 'https://nuvisfinance.com/docs',
-    'support_link'          => 'https://nuvisfinance.com/support',
+    'docs_link'             => 'https://nuvisaccountx.com.fj/docs',
+    'support_link'          => 'https://nuvisaccountx.com.fj/support',
 
 ];

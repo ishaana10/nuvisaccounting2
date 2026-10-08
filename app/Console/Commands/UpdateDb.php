@@ -19,7 +19,7 @@ class UpdateDb extends Command
      *
      * @var string
      */
-    protected $description = 'Allows to update NuvisFinance database manually';
+    protected $description = 'Allows to update NuvisAccountX database manually';
 
     /**
      * Execute the console command.

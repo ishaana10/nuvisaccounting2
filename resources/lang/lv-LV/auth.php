@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Jūs saņēmāt šo e-pasta ziņojumu, jo esat uzaicināts pievienoties NuvisFinance.',
+        'message_1'         => 'Jūs saņēmāt šo e-pasta ziņojumu, jo esat uzaicināts pievienoties NuvisAccountX.',
         'message_2'         => 'Ja nevēlaties pievienoties, turpmāka darbība nav nepieciešama.',
         'button'            => 'Sākt tagad',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Viegli izveidojiet rēķinus',
         'reports'           => 'Saņemiet detalizētus pārskatus',
         'expense'           => 'Izsekojiet visiem izdevumiem',
-        'customize'         => 'Pielāgojiet savu NuvisFinance',
+        'customize'         => 'Pielāgojiet savu NuvisAccountX',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Administrators',
-            'description'   => 'Viņi iegūst pilnu piekļuvi jūsu NuvisFinance, tostarp klientiem, rēķiniem, pārskatiem, iestatījumiem un lietotnēm.',
+            'description'   => 'Viņi iegūst pilnu piekļuvi jūsu NuvisAccountX, tostarp klientiem, rēķiniem, pārskatiem, iestatījumiem un lietotnēm.',
         ],
         'manager' => [
             'name'          => 'Vadītājs',
-            'description'   => 'Viņi iegūst pilnu piekļuvi jūsu NuvisFinance, taču nevar pārvaldīt lietotājus un lietotnes.',
+            'description'   => 'Viņi iegūst pilnu piekļuvi jūsu NuvisAccountX, taču nevar pārvaldīt lietotājus un lietotnes.',
         ],
         'customer' => [
             'name'          => 'Klients',

@@ -3,8 +3,8 @@
 return [
 
     'version'               => '版本',
-    'powered'               => 'Powered By NuvisFinance',
-    'link'                  => 'https://nuvisfinance.com',
+    'powered'               => 'Powered By NuvisAccountX',
+    'link'                  => 'https://nuvisaccountx.com.fj',
     'software'              => '免費會計軟體',
 
 ];

@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count nadolazeći račun|[2,*] :count nadolazećih računa',
         'view_all'          => 'Vidi sve'
     ],
-    'docs_link'             => 'https://nuvisfinance.com/docs',
-    'support_link'          => 'https://nuvisfinance.com/support',
+    'docs_link'             => 'https://nuvisaccountx.com.fj/docs',
+    'support_link'          => 'https://nuvisaccountx.com.fj/support',
 
 ];

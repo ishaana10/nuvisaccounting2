@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Du får detta e-postmeddelande eftersom du är inbjuden att gå med i NuvisFinance.',
+        'message_1'         => 'Du får detta e-postmeddelande eftersom du är inbjuden att gå med i NuvisAccountX.',
         'message_2'         => 'Om du inte vill gå med krävs inga ytterligare åtgärder.',
         'button'            => 'Kom igång',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Skapa fakturor enkelt',
         'reports'           => 'Få detaljerade redovisningsrapporter',
         'expense'           => 'Spåra alla kostnader och utgifter',
-        'customize'         => 'Anpassa NuvisFinance',
+        'customize'         => 'Anpassa NuvisAccountX',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Administratör',
-            'description'   => 'De får full tillgång till din NuvisFinance inklusive kunder, fakturor, rapporter, inställningar och appar.',
+            'description'   => 'De får full tillgång till din NuvisAccountX inklusive kunder, fakturor, rapporter, inställningar och appar.',
         ],
         'manager' => [
             'name'          => 'Föreståndare',
-            'description'   => 'De får full tillgång till din NuvisFinance, men kan inte hantera användare och appar.',
+            'description'   => 'De får full tillgång till din NuvisAccountX, men kan inte hantera användare och appar.',
         ],
         'customer' => [
             'name'          => 'Kund',

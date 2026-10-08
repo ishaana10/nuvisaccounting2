@@ -4,7 +4,7 @@ return [
 
     'version'               => 'ვერსია',
     'powered'               => 'მუშაობს აქაუტინგზე',
-    'link'                  => 'https://nuvisfinance.com',
+    'link'                  => 'https://nuvisaccountx.com.fj',
     'software'              => 'უფასო საბუღალტრო პროგრამა',
 
 ];

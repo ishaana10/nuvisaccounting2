@@ -45,7 +45,7 @@ return [
     ],
 
     'update' => [
-        'core'              => 'إصدار جديد من NuvisFinance متاح! يرجى تحديث <a href=":url">تثبيتك.</a>',
+        'core'              => 'إصدار جديد من NuvisAccountX متاح! يرجى تحديث <a href=":url">تثبيتك.</a>',
         'module'            => 'إصدار جديد من :module متاح! يرجى تحديث <a href=":url">تثبيتك.</a>',
     ],
 ];

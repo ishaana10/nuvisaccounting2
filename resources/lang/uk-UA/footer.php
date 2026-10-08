@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Версія',
-    'powered'               => 'Зроблено в NuvisFinance',
-    'link'                  => 'https://nuvisfinance.com',
+    'powered'               => 'Зроблено в NuvisAccountX',
+    'link'                  => 'https://nuvisaccountx.com.fj',
     'software'              => 'Безкоштовна Бухгалтерська Програма',
 
 ];

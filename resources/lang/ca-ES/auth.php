@@ -55,7 +55,7 @@ return [
     ],
 
     'invitation' => [
-        'message_1'         => 'Estàs rebent aquest correu electrònic perquè estàs convidat a unir-te a l\'NuvisFinance.',
+        'message_1'         => 'Estàs rebent aquest correu electrònic perquè estàs convidat a unir-te a l\'NuvisAccountX.',
         'message_2'         => 'Si no t\'hi vols unir, no cal que facis res més.',
         'button'            => 'Comença',
     ],
@@ -64,17 +64,17 @@ return [
         'invoice'           => 'Crea factures fàcilment',
         'reports'           => 'Obté informes detallats',
         'expense'           => 'Fes el seguiment de qualsevol despesa',
-        'customize'         => 'Personalitza el teu NuvisFinance',
+        'customize'         => 'Personalitza el teu NuvisAccountX',
     ],
 
     'roles' => [
         'admin' => [
             'name'          => 'Administrador',
-            'description'   => 'Tenen accés complet al vostre NuvisFinance, inclosos clients, factures, informes, configuracions i aplicacions.',
+            'description'   => 'Tenen accés complet al vostre NuvisAccountX, inclosos clients, factures, informes, configuracions i aplicacions.',
         ],
         'manager' => [
             'name'          => 'Gerent',
-            'description'   => 'Tenen accés complet al teu NuvisFinance, però no poden gestionar usuaris i aplicacions.',
+            'description'   => 'Tenen accés complet al teu NuvisAccountX, però no poden gestionar usuaris i aplicacions.',
         ],
         'customer' => [
             'name'          => 'Client',
