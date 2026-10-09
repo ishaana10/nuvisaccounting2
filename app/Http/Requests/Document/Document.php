@@ -45,6 +45,19 @@ class Document extends FormRequest
         // Get company id
         $company_id = (int) $this->request->get('company_id');
 
+        // Ensure date fields sent as Y-m-d from flatpickr have time attached for Y-m-d H:i:s validation
+        if ($issued = $this->request->get('issued_at')) {
+            if (strlen($issued) === 10) {
+                $this->request->set('issued_at', $issued . ' 00:00:00');
+            }
+        }
+
+        if ($due = $this->request->get('due_at')) {
+            if (strlen($due) === 10) {
+                $this->request->set('due_at', $due . ' 23:59:59');
+            }
+        }
+
         $rules = [
             'type'                  => 'required|string',
             'document_number'       => 'required|string|unique:documents,NULL,' . ($id ?? 'null') . ',id,type,' . $type . ',company_id,' . $company_id . ',deleted_at,NULL',
